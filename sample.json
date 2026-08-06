@@ -1,0 +1,4130 @@
+[
+  {
+    "id": "ROBO-000001",
+    "task_type": "palletizing",
+    "robot_type": "parallel_gripper",
+    "object": {
+      "type": "sphere",
+      "material": "ceramic",
+      "mass_kg": 1.791,
+      "dimensions_cm": {
+        "length": 17.5,
+        "width": 12.7,
+        "height": 10.3
+      }
+    },
+    "grasp_pose": {
+      "position": {
+        "x": 0.1811,
+        "y": -0.1696,
+        "z": 0.5148
+      },
+      "orientation": {
+        "roll_rad": -1.5672,
+        "pitch_rad": 1.5426,
+        "yaw_rad": -1.7817
+      }
+    },
+    "trajectory": [
+      {
+        "waypoint_id": 0,
+        "timestamp_ms": 0,
+        "joint_angles": [
+          2.3488,
+          -0.5165,
+          -1.6897,
+          -0.736,
+          -2.6629,
+          0.5055
+        ],
+        "ee_position": {
+          "x": 0.0932,
+          "y": -0.1667,
+          "z": 0.7103
+        },
+        "gripper_width_mm": 80.1,
+        "gripper_force_n": 39.75
+      },
+      {
+        "waypoint_id": 1,
+        "timestamp_ms": 100,
+        "joint_angles": [
+          0.8373,
+          1.0181,
+          -2.162,
+          -1.6427,
+          -0.9217,
+          1.8997
+        ],
+        "ee_position": {
+          "x": 0.2581,
+          "y": -0.1165,
+          "z": 0.5326
+        },
+        "gripper_width_mm": 27.6,
+        "gripper_force_n": 42.68
+      },
+      {
+        "waypoint_id": 2,
+        "timestamp_ms": 200,
+        "joint_angles": [
+          2.0809,
+          2.3656,
+          0.7241,
+          -2.189,
+          1.7023,
+          1.2213
+        ],
+        "ee_position": {
+          "x": 0.244,
+          "y": -0.0909,
+          "z": 0.6609
+        },
+        "gripper_width_mm": 11.1,
+        "gripper_force_n": 24.51
+      },
+      {
+        "waypoint_id": 3,
+        "timestamp_ms": 300,
+        "joint_angles": [
+          -2.0982,
+          -2.246,
+          1.9151,
+          1.9636,
+          -1.1538,
+          -1.167
+        ],
+        "ee_position": {
+          "x": 0.2609,
+          "y": -0.0793,
+          "z": 0.608
+        },
+        "gripper_width_mm": 1.8,
+        "gripper_force_n": 30.31
+      },
+      {
+        "waypoint_id": 4,
+        "timestamp_ms": 400,
+        "joint_angles": [
+          2.8232,
+          1.8972,
+          -0.6165,
+          -0.1203,
+          -1.121,
+          2.886
+        ],
+        "ee_position": {
+          "x": 0.213,
+          "y": -0.1897,
+          "z": 0.6901
+        },
+        "gripper_width_mm": 32.8,
+        "gripper_force_n": 6.28
+      },
+      {
+        "waypoint_id": 5,
+        "timestamp_ms": 500,
+        "joint_angles": [
+          -1.6714,
+          1.9904,
+          -3.1163,
+          0.6687,
+          2.2351,
+          2.9268
+        ],
+        "ee_position": {
+          "x": 0.2065,
+          "y": -0.2353,
+          "z": 0.6422
+        },
+        "gripper_width_mm": 81.8,
+        "gripper_force_n": 26.93
+      },
+      {
+        "waypoint_id": 6,
+        "timestamp_ms": 600,
+        "joint_angles": [
+          1.671,
+          -2.4,
+          0.5228,
+          3.0628,
+          1.8163,
+          0.8537
+        ],
+        "ee_position": {
+          "x": 0.1415,
+          "y": -0.2358,
+          "z": 0.6489
+        },
+        "gripper_width_mm": 12.8,
+        "gripper_force_n": 46.84
+      },
+      {
+        "waypoint_id": 7,
+        "timestamp_ms": 700,
+        "joint_angles": [
+          2.618,
+          -1.246,
+          2.8388,
+          0.8256,
+          -2.2667,
+          2.4412
+        ],
+        "ee_position": {
+          "x": 0.2342,
+          "y": -0.2017,
+          "z": 0.6269
+        },
+        "gripper_width_mm": 25.4,
+        "gripper_force_n": 33.23
+      }
+    ],
+    "sensor_readings": {
+      "camera_rgb": {
+        "resolution": [
+          640,
+          480
+        ],
+        "object_detected": true,
+        "bounding_box": [
+          388,
+          154,
+          197,
+          53
+        ]
+      },
+      "depth_camera": {
+        "mean_depth_m": 0.55,
+        "point_cloud_size": 1945
+      },
+      "force_torque": {
+        "fx_n": -7.27,
+        "fy_n": 6.46,
+        "fz_n": 10.26,
+        "tx_nm": 0.495,
+        "ty_nm": 0.212,
+        "tz_nm": 0.348
+      },
+      "joint_torques": [
+        -2.85,
+        -1.01,
+        0.43,
+        2.45,
+        4.02,
+        -0.49
+      ]
+    },
+    "execution_time_ms": 4914,
+    "success": true,
+    "failure_mode": null,
+    "collision_detected": false,
+    "workspace_constraints": {
+      "x_min_m": -0.8,
+      "x_max_m": 0.8,
+      "y_min_m": -0.6,
+      "y_max_m": 0.6,
+      "z_min_m": 0.0,
+      "z_max_m": 1.2
+    },
+    "environment": "warehouse",
+    "lighting": "bright",
+    "timestamp": "2026-08-06T20:18:03.381417+00:00",
+    "data_source": "synthetic_robotics_simulation",
+    "is_synthetic": true
+  },
+  {
+    "id": "ROBO-000002",
+    "task_type": "palletizing",
+    "robot_type": "magnetic_gripper",
+    "object": {
+      "type": "circuit_board",
+      "material": "carbon_fiber",
+      "mass_kg": 3.318,
+      "dimensions_cm": {
+        "length": 13.5,
+        "width": 9.3,
+        "height": 10.7
+      }
+    },
+    "grasp_pose": {
+      "position": {
+        "x": -0.3786,
+        "y": 0.2635,
+        "z": 0.2638
+      },
+      "orientation": {
+        "roll_rad": -2.2256,
+        "pitch_rad": -1.1945,
+        "yaw_rad": -2.8378
+      }
+    },
+    "trajectory": [
+      {
+        "waypoint_id": 0,
+        "timestamp_ms": 0,
+        "joint_angles": [
+          2.9823,
+          0.3292,
+          1.2629,
+          -1.5008,
+          -2.4576,
+          -2.3005
+        ],
+        "ee_position": {
+          "x": -0.365,
+          "y": 0.2821,
+          "z": 0.3247
+        },
+        "gripper_width_mm": 80.8,
+        "gripper_force_n": 32.96
+      },
+      {
+        "waypoint_id": 1,
+        "timestamp_ms": 100,
+        "joint_angles": [
+          2.7022,
+          1.3639,
+          -0.2988,
+          -1.9968,
+          0.883,
+          1.3136
+        ],
+        "ee_position": {
+          "x": -0.4723,
+          "y": 0.25,
+          "z": 0.3425
+        },
+        "gripper_width_mm": 42.0,
+        "gripper_force_n": 8.01
+      },
+      {
+        "waypoint_id": 2,
+        "timestamp_ms": 200,
+        "joint_angles": [
+          1.8877,
+          3.0237,
+          1.8315,
+          -1.8474,
+          -0.9673,
+          2.0449
+        ],
+        "ee_position": {
+          "x": -0.3019,
+          "y": 0.3105,
+          "z": 0.3702
+        },
+        "gripper_width_mm": 16.4,
+        "gripper_force_n": 38.61
+      }
+    ],
+    "sensor_readings": {
+      "camera_rgb": {
+        "resolution": [
+          640,
+          480
+        ],
+        "object_detected": true,
+        "bounding_box": [
+          274,
+          254,
+          195,
+          119
+        ]
+      },
+      "depth_camera": {
+        "mean_depth_m": 0.277,
+        "point_cloud_size": 15382
+      },
+      "force_torque": {
+        "fx_n": -0.6,
+        "fy_n": -7.41,
+        "fz_n": 4.22,
+        "tx_nm": -1.764,
+        "ty_nm": 0.073,
+        "tz_nm": -0.991
+      },
+      "joint_torques": [
+        -2.69,
+        4.35,
+        -4.97,
+        1.25,
+        -2.9,
+        -3.83
+      ]
+    },
+    "execution_time_ms": 2058,
+    "success": false,
+    "failure_mode": null,
+    "collision_detected": false,
+    "workspace_constraints": {
+      "x_min_m": -0.8,
+      "x_max_m": 0.8,
+      "y_min_m": -0.6,
+      "y_max_m": 0.6,
+      "z_min_m": 0.0,
+      "z_max_m": 1.2
+    },
+    "environment": "factory",
+    "lighting": "ir",
+    "timestamp": "2026-08-06T20:18:03.381417+00:00",
+    "data_source": "synthetic_robotics_simulation",
+    "is_synthetic": true
+  },
+  {
+    "id": "ROBO-000003",
+    "task_type": "assembly",
+    "robot_type": "scara",
+    "object": {
+      "type": "gear",
+      "material": "plastic_abs",
+      "mass_kg": 4.773,
+      "dimensions_cm": {
+        "length": 24.7,
+        "width": 5.9,
+        "height": 6.6
+      }
+    },
+    "grasp_pose": {
+      "position": {
+        "x": -0.1137,
+        "y": 0.1271,
+        "z": 0.0615
+      },
+      "orientation": {
+        "roll_rad": -0.5474,
+        "pitch_rad": -0.9082,
+        "yaw_rad": 2.6031
+      }
+    },
+    "trajectory": [
+      {
+        "waypoint_id": 0,
+        "timestamp_ms": 0,
+        "joint_angles": [
+          -3.1346,
+          -0.321,
+          -1.7679,
+          -2.6152,
+          -0.5227,
+          -0.9805
+        ],
+        "ee_position": {
+          "x": -0.0208,
+          "y": 0.165,
+          "z": 0.2
+        },
+        "gripper_width_mm": 3.9,
+        "gripper_force_n": 37.75
+      },
+      {
+        "waypoint_id": 1,
+        "timestamp_ms": 100,
+        "joint_angles": [
+          1.8564,
+          1.3059,
+          2.9659,
+          2.296,
+          0.3284,
+          2.1556
+        ],
+        "ee_position": {
+          "x": -0.0242,
+          "y": 0.1908,
+          "z": 0.1771
+        },
+        "gripper_width_mm": 23.6,
+        "gripper_force_n": 40.78
+      },
+      {
+        "waypoint_id": 2,
+        "timestamp_ms": 200,
+        "joint_angles": [
+          2.8645,
+          -2.6579,
+          -1.7124,
+          -2.1581,
+          2.6772,
+          -0.8961
+        ],
+        "ee_position": {
+          "x": -0.0274,
+          "y": 0.2101,
+          "z": 0.2253
+        },
+        "gripper_width_mm": 53.8,
+        "gripper_force_n": 42.6
+      }
+    ],
+    "sensor_readings": {
+      "camera_rgb": {
+        "resolution": [
+          640,
+          480
+        ],
+        "object_detected": true,
+        "bounding_box": [
+          175,
+          298,
+          181,
+          65
+        ]
+      },
+      "depth_camera": {
+        "mean_depth_m": 0.017,
+        "point_cloud_size": 22862
+      },
+      "force_torque": {
+        "fx_n": -8.7,
+        "fy_n": 5.13,
+        "fz_n": 6.6,
+        "tx_nm": -0.877,
+        "ty_nm": -1.695,
+        "tz_nm": -0.85
+      },
+      "joint_torques": [
+        -0.44,
+        2.98,
+        -0.89,
+        -4.98,
+        -2.11,
+        -2.55
+      ]
+    },
+    "execution_time_ms": 3554,
+    "success": false,
+    "failure_mode": "collision",
+    "collision_detected": false,
+    "workspace_constraints": {
+      "x_min_m": -0.8,
+      "x_max_m": 0.8,
+      "y_min_m": -0.6,
+      "y_max_m": 0.6,
+      "z_min_m": 0.0,
+      "z_max_m": 1.2
+    },
+    "environment": "kitchen",
+    "lighting": "uv",
+    "timestamp": "2026-08-06T20:18:03.381417+00:00",
+    "data_source": "synthetic_robotics_simulation",
+    "is_synthetic": true
+  },
+  {
+    "id": "ROBO-000004",
+    "task_type": "quality_check",
+    "robot_type": "magnetic_gripper",
+    "object": {
+      "type": "sphere",
+      "material": "ceramic",
+      "mass_kg": 1.838,
+      "dimensions_cm": {
+        "length": 4.7,
+        "width": 13.5,
+        "height": 4.1
+      }
+    },
+    "grasp_pose": {
+      "position": {
+        "x": -0.4747,
+        "y": 0.4297,
+        "z": 0.3537
+      },
+      "orientation": {
+        "roll_rad": 1.7677,
+        "pitch_rad": 0.4786,
+        "yaw_rad": 1.1337
+      }
+    },
+    "trajectory": [
+      {
+        "waypoint_id": 0,
+        "timestamp_ms": 0,
+        "joint_angles": [
+          -2.6993,
+          1.7589,
+          -1.4561,
+          -1.7151,
+          2.1317,
+          1.8103
+        ],
+        "ee_position": {
+          "x": -0.4246,
+          "y": 0.3614,
+          "z": 0.5483
+        },
+        "gripper_width_mm": 75.1,
+        "gripper_force_n": 28.25
+      },
+      {
+        "waypoint_id": 1,
+        "timestamp_ms": 100,
+        "joint_angles": [
+          -2.2716,
+          0.0414,
+          -2.7557,
+          -1.689,
+          -1.729,
+          0.5612
+        ],
+        "ee_position": {
+          "x": -0.4291,
+          "y": 0.4427,
+          "z": 0.3616
+        },
+        "gripper_width_mm": 70.3,
+        "gripper_force_n": 0.87
+      },
+      {
+        "waypoint_id": 2,
+        "timestamp_ms": 200,
+        "joint_angles": [
+          -1.2413,
+          -2.3646,
+          1.2992,
+          -0.5967,
+          1.2934,
+          0.434
+        ],
+        "ee_position": {
+          "x": -0.5619,
+          "y": 0.5083,
+          "z": 0.4385
+        },
+        "gripper_width_mm": 81.5,
+        "gripper_force_n": 29.5
+      },
+      {
+        "waypoint_id": 3,
+        "timestamp_ms": 300,
+        "joint_angles": [
+          -2.2995,
+          -0.755,
+          0.4675,
+          2.8733,
+          0.6914,
+          0.6561
+        ],
+        "ee_position": {
+          "x": -0.5033,
+          "y": 0.3831,
+          "z": 0.5427
+        },
+        "gripper_width_mm": 75.2,
+        "gripper_force_n": 39.56
+      }
+    ],
+    "sensor_readings": {
+      "camera_rgb": {
+        "resolution": [
+          640,
+          480
+        ],
+        "object_detected": true,
+        "bounding_box": [
+          319,
+          245,
+          127,
+          64
+        ]
+      },
+      "depth_camera": {
+        "mean_depth_m": 0.325,
+        "point_cloud_size": 41721
+      },
+      "force_torque": {
+        "fx_n": -0.23,
+        "fy_n": -9.65,
+        "fz_n": 1.96,
+        "tx_nm": -0.518,
+        "ty_nm": -1.107,
+        "tz_nm": 0.099
+      },
+      "joint_torques": [
+        -2.14,
+        1.58,
+        0.43,
+        2.49,
+        3.95,
+        -4.14
+      ]
+    },
+    "execution_time_ms": 7866,
+    "success": true,
+    "failure_mode": null,
+    "collision_detected": false,
+    "workspace_constraints": {
+      "x_min_m": -0.8,
+      "x_max_m": 0.8,
+      "y_min_m": -0.6,
+      "y_max_m": 0.6,
+      "z_min_m": 0.0,
+      "z_max_m": 1.2
+    },
+    "environment": "lab",
+    "lighting": "variable",
+    "timestamp": "2026-08-06T20:18:03.381417+00:00",
+    "data_source": "synthetic_robotics_simulation",
+    "is_synthetic": true
+  },
+  {
+    "id": "ROBO-000005",
+    "task_type": "surface_cleaning",
+    "robot_type": "scara",
+    "object": {
+      "type": "gear",
+      "material": "aluminum",
+      "mass_kg": 0.067,
+      "dimensions_cm": {
+        "length": 14.5,
+        "width": 7.7,
+        "height": 6.5
+      }
+    },
+    "grasp_pose": {
+      "position": {
+        "x": -0.093,
+        "y": -0.4286,
+        "z": 0.757
+      },
+      "orientation": {
+        "roll_rad": -2.1251,
+        "pitch_rad": -0.7652,
+        "yaw_rad": 1.4195
+      }
+    },
+    "trajectory": [
+      {
+        "waypoint_id": 0,
+        "timestamp_ms": 0,
+        "joint_angles": [
+          2.1076,
+          -2.1945,
+          -0.7067,
+          -2.7364,
+          3.0485,
+          2.1713
+        ],
+        "ee_position": {
+          "x": -0.0097,
+          "y": -0.3332,
+          "z": 0.9406
+        },
+        "gripper_width_mm": 71.8,
+        "gripper_force_n": 18.65
+      },
+      {
+        "waypoint_id": 1,
+        "timestamp_ms": 100,
+        "joint_angles": [
+          2.502,
+          2.7436,
+          -0.7917,
+          2.4162,
+          0.0056,
+          0.9338
+        ],
+        "ee_position": {
+          "x": -0.069,
+          "y": -0.3883,
+          "z": 0.761
+        },
+        "gripper_width_mm": 10.0,
+        "gripper_force_n": 25.45
+      },
+      {
+        "waypoint_id": 2,
+        "timestamp_ms": 200,
+        "joint_angles": [
+          2.5198,
+          -0.9682,
+          1.3832,
+          1.9531,
+          0.8083,
+          2.7894
+        ],
+        "ee_position": {
+          "x": 0.0039,
+          "y": -0.4541,
+          "z": 0.8726
+        },
+        "gripper_width_mm": 10.7,
+        "gripper_force_n": 39.18
+      },
+      {
+        "waypoint_id": 3,
+        "timestamp_ms": 300,
+        "joint_angles": [
+          -1.4146,
+          2.0474,
+          -2.05,
+          0.8275,
+          2.5134,
+          -0.1781
+        ],
+        "ee_position": {
+          "x": -0.1569,
+          "y": -0.3496,
+          "z": 0.915
+        },
+        "gripper_width_mm": 63.8,
+        "gripper_force_n": 48.46
+      }
+    ],
+    "sensor_readings": {
+      "camera_rgb": {
+        "resolution": [
+          640,
+          480
+        ],
+        "object_detected": true,
+        "bounding_box": [
+          153,
+          128,
+          162,
+          57
+        ]
+      },
+      "depth_camera": {
+        "mean_depth_m": 0.8,
+        "point_cloud_size": 39857
+      },
+      "force_torque": {
+        "fx_n": -8.66,
+        "fy_n": 7.33,
+        "fz_n": 10.91,
+        "tx_nm": -0.51,
+        "ty_nm": 0.269,
+        "tz_nm": 0.49
+      },
+      "joint_torques": [
+        -4.07,
+        -4.66,
+        -2.31,
+        4.31,
+        -3.17,
+        2.67
+      ]
+    },
+    "execution_time_ms": 6873,
+    "success": true,
+    "failure_mode": null,
+    "collision_detected": false,
+    "workspace_constraints": {
+      "x_min_m": -0.8,
+      "x_max_m": 0.8,
+      "y_min_m": -0.6,
+      "y_max_m": 0.6,
+      "z_min_m": 0.0,
+      "z_max_m": 1.2
+    },
+    "environment": "outdoor",
+    "lighting": "variable",
+    "timestamp": "2026-08-06T20:18:03.381417+00:00",
+    "data_source": "synthetic_robotics_simulation",
+    "is_synthetic": true
+  },
+  {
+    "id": "ROBO-000006",
+    "task_type": "bin_picking",
+    "robot_type": "parallel_gripper",
+    "object": {
+      "type": "screw",
+      "material": "carbon_fiber",
+      "mass_kg": 2.98,
+      "dimensions_cm": {
+        "length": 27.4,
+        "width": 5.4,
+        "height": 0.6
+      }
+    },
+    "grasp_pose": {
+      "position": {
+        "x": -0.3458,
+        "y": -0.3354,
+        "z": 0.2986
+      },
+      "orientation": {
+        "roll_rad": -1.4269,
+        "pitch_rad": -0.9239,
+        "yaw_rad": 3.0724
+      }
+    },
+    "trajectory": [
+      {
+        "waypoint_id": 0,
+        "timestamp_ms": 0,
+        "joint_angles": [
+          -0.9211,
+          -0.8066,
+          1.7271,
+          0.4859,
+          2.1709,
+          0.141
+        ],
+        "ee_position": {
+          "x": -0.3456,
+          "y": -0.3694,
+          "z": 0.4962
+        },
+        "gripper_width_mm": 13.4,
+        "gripper_force_n": 5.08
+      },
+      {
+        "waypoint_id": 1,
+        "timestamp_ms": 100,
+        "joint_angles": [
+          1.1105,
+          0.7301,
+          -0.5027,
+          1.5725,
+          -0.9521,
+          -1.6357
+        ],
+        "ee_position": {
+          "x": -0.4211,
+          "y": -0.3072,
+          "z": 0.3577
+        },
+        "gripper_width_mm": 18.2,
+        "gripper_force_n": 41.48
+      },
+      {
+        "waypoint_id": 2,
+        "timestamp_ms": 200,
+        "joint_angles": [
+          -2.5758,
+          0.9348,
+          -1.0596,
+          0.5142,
+          3.0541,
+          -1.0444
+        ],
+        "ee_position": {
+          "x": -0.2632,
+          "y": -0.362,
+          "z": 0.3407
+        },
+        "gripper_width_mm": 6.0,
+        "gripper_force_n": 19.63
+      },
+      {
+        "waypoint_id": 3,
+        "timestamp_ms": 300,
+        "joint_angles": [
+          -1.8591,
+          -0.9523,
+          2.0607,
+          1.1737,
+          -0.6927,
+          0.0189
+        ],
+        "ee_position": {
+          "x": -0.3356,
+          "y": -0.4141,
+          "z": 0.3874
+        },
+        "gripper_width_mm": 83.8,
+        "gripper_force_n": 41.24
+      },
+      {
+        "waypoint_id": 4,
+        "timestamp_ms": 400,
+        "joint_angles": [
+          2.1242,
+          2.6224,
+          0.6372,
+          -2.0292,
+          1.5659,
+          0.9513
+        ],
+        "ee_position": {
+          "x": -0.3583,
+          "y": -0.2898,
+          "z": 0.4704
+        },
+        "gripper_width_mm": 18.3,
+        "gripper_force_n": 39.54
+      },
+      {
+        "waypoint_id": 5,
+        "timestamp_ms": 500,
+        "joint_angles": [
+          2.8549,
+          -2.9999,
+          -1.1517,
+          -3.0064,
+          -0.0776,
+          -0.7876
+        ],
+        "ee_position": {
+          "x": -0.3847,
+          "y": -0.3257,
+          "z": 0.4093
+        },
+        "gripper_width_mm": 29.6,
+        "gripper_force_n": 37.26
+      },
+      {
+        "waypoint_id": 6,
+        "timestamp_ms": 600,
+        "joint_angles": [
+          -2.7311,
+          2.5726,
+          -3.0363,
+          -0.6351,
+          0.5874,
+          0.5463
+        ],
+        "ee_position": {
+          "x": -0.3575,
+          "y": -0.3155,
+          "z": 0.3595
+        },
+        "gripper_width_mm": 81.9,
+        "gripper_force_n": 21.01
+      },
+      {
+        "waypoint_id": 7,
+        "timestamp_ms": 700,
+        "joint_angles": [
+          2.7399,
+          1.0239,
+          -0.7955,
+          -2.8644,
+          0.2314,
+          1.9908
+        ],
+        "ee_position": {
+          "x": -0.3596,
+          "y": -0.3923,
+          "z": 0.3765
+        },
+        "gripper_width_mm": 76.3,
+        "gripper_force_n": 3.33
+      },
+      {
+        "waypoint_id": 8,
+        "timestamp_ms": 800,
+        "joint_angles": [
+          -1.8504,
+          0.669,
+          -2.392,
+          0.6551,
+          -0.2099,
+          -0.435
+        ],
+        "ee_position": {
+          "x": -0.3829,
+          "y": -0.3869,
+          "z": 0.4678
+        },
+        "gripper_width_mm": 38.9,
+        "gripper_force_n": 33.43
+      },
+      {
+        "waypoint_id": 9,
+        "timestamp_ms": 900,
+        "joint_angles": [
+          -2.6685,
+          -3.0907,
+          -2.1729,
+          2.8362,
+          1.6285,
+          -0.4769
+        ],
+        "ee_position": {
+          "x": -0.341,
+          "y": -0.2393,
+          "z": 0.3549
+        },
+        "gripper_width_mm": 43.9,
+        "gripper_force_n": 9.24
+      }
+    ],
+    "sensor_readings": {
+      "camera_rgb": {
+        "resolution": [
+          640,
+          480
+        ],
+        "object_detected": true,
+        "bounding_box": [
+          240,
+          273,
+          183,
+          78
+        ]
+      },
+      "depth_camera": {
+        "mean_depth_m": 0.255,
+        "point_cloud_size": 34940
+      },
+      "force_torque": {
+        "fx_n": -0.95,
+        "fy_n": -2.85,
+        "fz_n": 12.48,
+        "tx_nm": 1.373,
+        "ty_nm": -1.81,
+        "tz_nm": -0.011
+      },
+      "joint_torques": [
+        2.22,
+        3.21,
+        -1.24,
+        4.01,
+        3.99,
+        2.69
+      ]
+    },
+    "execution_time_ms": 673,
+    "success": true,
+    "failure_mode": null,
+    "collision_detected": false,
+    "workspace_constraints": {
+      "x_min_m": -0.8,
+      "x_max_m": 0.8,
+      "y_min_m": -0.6,
+      "y_max_m": 0.6,
+      "z_min_m": 0.0,
+      "z_max_m": 1.2
+    },
+    "environment": "outdoor",
+    "lighting": "dim",
+    "timestamp": "2026-08-06T20:18:03.381417+00:00",
+    "data_source": "synthetic_robotics_simulation",
+    "is_synthetic": true
+  },
+  {
+    "id": "ROBO-000007",
+    "task_type": "surface_cleaning",
+    "robot_type": "delta",
+    "object": {
+      "type": "cone",
+      "material": "carbon_fiber",
+      "mass_kg": 1.635,
+      "dimensions_cm": {
+        "length": 26.9,
+        "width": 9.8,
+        "height": 12.3
+      }
+    },
+    "grasp_pose": {
+      "position": {
+        "x": 0.2794,
+        "y": -0.3729,
+        "z": 0.4649
+      },
+      "orientation": {
+        "roll_rad": 1.8902,
+        "pitch_rad": 1.0781,
+        "yaw_rad": -2.516
+      }
+    },
+    "trajectory": [
+      {
+        "waypoint_id": 0,
+        "timestamp_ms": 0,
+        "joint_angles": [
+          -2.4296,
+          -2.1365,
+          -0.6563,
+          -2.0724,
+          2.148,
+          1.8855
+        ],
+        "ee_position": {
+          "x": 0.2333,
+          "y": -0.3116,
+          "z": 0.6192
+        },
+        "gripper_width_mm": 73.8,
+        "gripper_force_n": 36.26
+      },
+      {
+        "waypoint_id": 1,
+        "timestamp_ms": 100,
+        "joint_angles": [
+          -1.4096,
+          -1.0275,
+          -3.0518,
+          -0.5118,
+          -0.3709,
+          1.4438
+        ],
+        "ee_position": {
+          "x": 0.3765,
+          "y": -0.3937,
+          "z": 0.6245
+        },
+        "gripper_width_mm": 61.4,
+        "gripper_force_n": 14.28
+      },
+      {
+        "waypoint_id": 2,
+        "timestamp_ms": 200,
+        "joint_angles": [
+          -2.0211,
+          -1.4558,
+          1.2668,
+          1.9637,
+          2.2044,
+          0.1928
+        ],
+        "ee_position": {
+          "x": 0.1884,
+          "y": -0.3442,
+          "z": 0.5928
+        },
+        "gripper_width_mm": 47.5,
+        "gripper_force_n": 24.28
+      },
+      {
+        "waypoint_id": 3,
+        "timestamp_ms": 300,
+        "joint_angles": [
+          2.6614,
+          0.1754,
+          1.6199,
+          2.5988,
+          -0.7664,
+          1.4943
+        ],
+        "ee_position": {
+          "x": 0.2062,
+          "y": -0.3696,
+          "z": 0.6521
+        },
+        "gripper_width_mm": 67.8,
+        "gripper_force_n": 16.98
+      },
+      {
+        "waypoint_id": 4,
+        "timestamp_ms": 400,
+        "joint_angles": [
+          1.3845,
+          1.3489,
+          1.5015,
+          -1.7639,
+          -3.029,
+          2.6479
+        ],
+        "ee_position": {
+          "x": 0.3567,
+          "y": -0.4067,
+          "z": 0.5026
+        },
+        "gripper_width_mm": 20.5,
+        "gripper_force_n": 13.86
+      },
+      {
+        "waypoint_id": 5,
+        "timestamp_ms": 500,
+        "joint_angles": [
+          2.6382,
+          1.6629,
+          -0.5404,
+          -3.0057,
+          -0.1505,
+          -1.9957
+        ],
+        "ee_position": {
+          "x": 0.2485,
+          "y": -0.4712,
+          "z": 0.4691
+        },
+        "gripper_width_mm": 74.4,
+        "gripper_force_n": 7.01
+      },
+      {
+        "waypoint_id": 6,
+        "timestamp_ms": 600,
+        "joint_angles": [
+          -0.1814,
+          -1.7687,
+          0.9721,
+          1.5202,
+          -1.4548,
+          -3.1397
+        ],
+        "ee_position": {
+          "x": 0.3359,
+          "y": -0.4308,
+          "z": 0.6321
+        },
+        "gripper_width_mm": 18.3,
+        "gripper_force_n": 19.69
+      },
+      {
+        "waypoint_id": 7,
+        "timestamp_ms": 700,
+        "joint_angles": [
+          -2.491,
+          -2.5153,
+          1.9124,
+          -1.1701,
+          -0.3271,
+          2.678
+        ],
+        "ee_position": {
+          "x": 0.2261,
+          "y": -0.3403,
+          "z": 0.558
+        },
+        "gripper_width_mm": 32.1,
+        "gripper_force_n": 24.77
+      },
+      {
+        "waypoint_id": 8,
+        "timestamp_ms": 800,
+        "joint_angles": [
+          -0.4586,
+          -3.0159,
+          -0.9137,
+          1.31,
+          2.7151,
+          -2.6347
+        ],
+        "ee_position": {
+          "x": 0.2174,
+          "y": -0.4443,
+          "z": 0.5872
+        },
+        "gripper_width_mm": 22.7,
+        "gripper_force_n": 24.2
+      },
+      {
+        "waypoint_id": 9,
+        "timestamp_ms": 900,
+        "joint_angles": [
+          -0.2015,
+          -3.0824,
+          -3.0164,
+          0.0868,
+          0.1562,
+          -1.8571
+        ],
+        "ee_position": {
+          "x": 0.2641,
+          "y": -0.3755,
+          "z": 0.5294
+        },
+        "gripper_width_mm": 48.1,
+        "gripper_force_n": 37.75
+      }
+    ],
+    "sensor_readings": {
+      "camera_rgb": {
+        "resolution": [
+          640,
+          480
+        ],
+        "object_detected": true,
+        "bounding_box": [
+          360,
+          190,
+          190,
+          108
+        ]
+      },
+      "depth_camera": {
+        "mean_depth_m": 0.499,
+        "point_cloud_size": 19385
+      },
+      "force_torque": {
+        "fx_n": -4.07,
+        "fy_n": 5.72,
+        "fz_n": 14.71,
+        "tx_nm": 1.423,
+        "ty_nm": 1.318,
+        "tz_nm": -0.985
+      },
+      "joint_torques": [
+        -3.33,
+        -0.26,
+        -4.0,
+        0.51,
+        1.26,
+        -4.28
+      ]
+    },
+    "execution_time_ms": 4559,
+    "success": true,
+    "failure_mode": null,
+    "collision_detected": false,
+    "workspace_constraints": {
+      "x_min_m": -0.8,
+      "x_max_m": 0.8,
+      "y_min_m": -0.6,
+      "y_max_m": 0.6,
+      "z_min_m": 0.0,
+      "z_max_m": 1.2
+    },
+    "environment": "lab",
+    "lighting": "variable",
+    "timestamp": "2026-08-06T20:18:03.381417+00:00",
+    "data_source": "synthetic_robotics_simulation",
+    "is_synthetic": true
+  },
+  {
+    "id": "ROBO-000008",
+    "task_type": "palletizing",
+    "robot_type": "delta",
+    "object": {
+      "type": "circuit_board",
+      "material": "carbon_fiber",
+      "mass_kg": 3.216,
+      "dimensions_cm": {
+        "length": 6.9,
+        "width": 15.4,
+        "height": 9.2
+      }
+    },
+    "grasp_pose": {
+      "position": {
+        "x": -0.187,
+        "y": 0.1613,
+        "z": 0.6264
+      },
+      "orientation": {
+        "roll_rad": -0.7252,
+        "pitch_rad": 0.402,
+        "yaw_rad": 2.3583
+      }
+    },
+    "trajectory": [
+      {
+        "waypoint_id": 0,
+        "timestamp_ms": 0,
+        "joint_angles": [
+          2.4708,
+          0.885,
+          -2.3126,
+          -1.6631,
+          3.0144,
+          -0.183
+        ],
+        "ee_position": {
+          "x": -0.1669,
+          "y": 0.251,
+          "z": 0.6639
+        },
+        "gripper_width_mm": 78.9,
+        "gripper_force_n": 8.73
+      },
+      {
+        "waypoint_id": 1,
+        "timestamp_ms": 100,
+        "joint_angles": [
+          2.2712,
+          -2.4979,
+          1.4326,
+          1.854,
+          0.8719,
+          -0.6286
+        ],
+        "ee_position": {
+          "x": -0.1449,
+          "y": 0.2232,
+          "z": 0.7586
+        },
+        "gripper_width_mm": 64.9,
+        "gripper_force_n": 25.76
+      },
+      {
+        "waypoint_id": 2,
+        "timestamp_ms": 200,
+        "joint_angles": [
+          -1.2111,
+          -1.2398,
+          1.9819,
+          -0.6415,
+          0.8173,
+          -2.3974
+        ],
+        "ee_position": {
+          "x": -0.2698,
+          "y": 0.1525,
+          "z": 0.6287
+        },
+        "gripper_width_mm": 84.6,
+        "gripper_force_n": 11.2
+      },
+      {
+        "waypoint_id": 3,
+        "timestamp_ms": 300,
+        "joint_angles": [
+          -1.6649,
+          -0.4159,
+          0.3156,
+          2.3697,
+          -0.9234,
+          -0.1144
+        ],
+        "ee_position": {
+          "x": -0.1741,
+          "y": 0.0732,
+          "z": 0.7292
+        },
+        "gripper_width_mm": 18.3,
+        "gripper_force_n": 27.08
+      },
+      {
+        "waypoint_id": 4,
+        "timestamp_ms": 400,
+        "joint_angles": [
+          -1.4646,
+          -1.3443,
+          -0.0676,
+          -0.7577,
+          1.9309,
+          2.7646
+        ],
+        "ee_position": {
+          "x": -0.1803,
+          "y": 0.2454,
+          "z": 0.793
+        },
+        "gripper_width_mm": 61.5,
+        "gripper_force_n": 43.15
+      },
+      {
+        "waypoint_id": 5,
+        "timestamp_ms": 500,
+        "joint_angles": [
+          -1.2009,
+          -1.876,
+          1.8784,
+          0.5814,
+          2.5346,
+          -2.7739
+        ],
+        "ee_position": {
+          "x": -0.1227,
+          "y": 0.0829,
+          "z": 0.8262
+        },
+        "gripper_width_mm": 77.6,
+        "gripper_force_n": 8.32
+      },
+      {
+        "waypoint_id": 6,
+        "timestamp_ms": 600,
+        "joint_angles": [
+          1.8343,
+          -1.397,
+          -3.0186,
+          2.562,
+          -2.6853,
+          -2.3677
+        ],
+        "ee_position": {
+          "x": -0.1018,
+          "y": 0.2607,
+          "z": 0.8036
+        },
+        "gripper_width_mm": 10.9,
+        "gripper_force_n": 28.58
+      },
+      {
+        "waypoint_id": 7,
+        "timestamp_ms": 700,
+        "joint_angles": [
+          0.0373,
+          1.0108,
+          -2.1725,
+          0.4754,
+          0.7173,
+          2.7515
+        ],
+        "ee_position": {
+          "x": -0.2435,
+          "y": 0.2581,
+          "z": 0.7999
+        },
+        "gripper_width_mm": 52.8,
+        "gripper_force_n": 49.48
+      },
+      {
+        "waypoint_id": 8,
+        "timestamp_ms": 800,
+        "joint_angles": [
+          2.5372,
+          -3.0572,
+          -1.9525,
+          2.3084,
+          -1.1315,
+          1.4653
+        ],
+        "ee_position": {
+          "x": -0.1129,
+          "y": 0.082,
+          "z": 0.7719
+        },
+        "gripper_width_mm": 17.0,
+        "gripper_force_n": 24.93
+      }
+    ],
+    "sensor_readings": {
+      "camera_rgb": {
+        "resolution": [
+          640,
+          480
+        ],
+        "object_detected": true,
+        "bounding_box": [
+          279,
+          140,
+          130,
+          92
+        ]
+      },
+      "depth_camera": {
+        "mean_depth_m": 0.595,
+        "point_cloud_size": 37730
+      },
+      "force_torque": {
+        "fx_n": 8.78,
+        "fy_n": -3.09,
+        "fz_n": 14.78,
+        "tx_nm": 0.02,
+        "ty_nm": 1.526,
+        "tz_nm": -0.255
+      },
+      "joint_torques": [
+        -4.72,
+        -2.08,
+        2.1,
+        -2.41,
+        3.55,
+        -0.82
+      ]
+    },
+    "execution_time_ms": 6198,
+    "success": false,
+    "failure_mode": null,
+    "collision_detected": false,
+    "workspace_constraints": {
+      "x_min_m": -0.8,
+      "x_max_m": 0.8,
+      "y_min_m": -0.6,
+      "y_max_m": 0.6,
+      "z_min_m": 0.0,
+      "z_max_m": 1.2
+    },
+    "environment": "outdoor",
+    "lighting": "variable",
+    "timestamp": "2026-08-06T20:18:03.381417+00:00",
+    "data_source": "synthetic_robotics_simulation",
+    "is_synthetic": true
+  },
+  {
+    "id": "ROBO-000009",
+    "task_type": "inspection",
+    "robot_type": "cobot",
+    "object": {
+      "type": "washer",
+      "material": "aluminum",
+      "mass_kg": 3.922,
+      "dimensions_cm": {
+        "length": 4.2,
+        "width": 13.3,
+        "height": 0.6
+      }
+    },
+    "grasp_pose": {
+      "position": {
+        "x": -0.024,
+        "y": -0.3766,
+        "z": 0.0005
+      },
+      "orientation": {
+        "roll_rad": 1.9295,
+        "pitch_rad": -1.3702,
+        "yaw_rad": 2.8163
+      }
+    },
+    "trajectory": [
+      {
+        "waypoint_id": 0,
+        "timestamp_ms": 0,
+        "joint_angles": [
+          -1.3236,
+          0.4429,
+          1.3438,
+          -1.9772,
+          0.292,
+          2.8766
+        ],
+        "ee_position": {
+          "x": 0.0539,
+          "y": -0.4758,
+          "z": 0.0667
+        },
+        "gripper_width_mm": 4.6,
+        "gripper_force_n": 43.81
+      },
+      {
+        "waypoint_id": 1,
+        "timestamp_ms": 100,
+        "joint_angles": [
+          1.441,
+          -0.1572,
+          0.3999,
+          1.4296,
+          2.1389,
+          2.5649
+        ],
+        "ee_position": {
+          "x": -0.0581,
+          "y": -0.444,
+          "z": 0.0971
+        },
+        "gripper_width_mm": 51.0,
+        "gripper_force_n": 13.93
+      },
+      {
+        "waypoint_id": 2,
+        "timestamp_ms": 200,
+        "joint_angles": [
+          -0.3817,
+          1.6887,
+          -1.566,
+          1.0586,
+          1.1124,
+          1.6422
+        ],
+        "ee_position": {
+          "x": -0.0327,
+          "y": -0.2953,
+          "z": 0.0456
+        },
+        "gripper_width_mm": 68.5,
+        "gripper_force_n": 43.7
+      },
+      {
+        "waypoint_id": 3,
+        "timestamp_ms": 300,
+        "joint_angles": [
+          2.7203,
+          0.0955,
+          0.344,
+          0.9935,
+          1.5297,
+          2.0288
+        ],
+        "ee_position": {
+          "x": -0.1153,
+          "y": -0.4722,
+          "z": 0.1508
+        },
+        "gripper_width_mm": 15.4,
+        "gripper_force_n": 45.52
+      },
+      {
+        "waypoint_id": 4,
+        "timestamp_ms": 400,
+        "joint_angles": [
+          1.0141,
+          -0.3468,
+          -1.6105,
+          -0.5975,
+          1.7947,
+          0.1301
+        ],
+        "ee_position": {
+          "x": -0.01,
+          "y": -0.4486,
+          "z": 0.043
+        },
+        "gripper_width_mm": 64.8,
+        "gripper_force_n": 20.51
+      },
+      {
+        "waypoint_id": 5,
+        "timestamp_ms": 500,
+        "joint_angles": [
+          -0.4694,
+          0.2812,
+          1.6882,
+          2.0097,
+          0.922,
+          -0.6997
+        ],
+        "ee_position": {
+          "x": -0.0742,
+          "y": -0.4386,
+          "z": 0.0282
+        },
+        "gripper_width_mm": 74.6,
+        "gripper_force_n": 43.11
+      },
+      {
+        "waypoint_id": 6,
+        "timestamp_ms": 600,
+        "joint_angles": [
+          -0.927,
+          -0.2629,
+          0.6714,
+          1.431,
+          1.2437,
+          2.9189
+        ],
+        "ee_position": {
+          "x": 0.067,
+          "y": -0.3412,
+          "z": 0.0347
+        },
+        "gripper_width_mm": 71.0,
+        "gripper_force_n": 33.35
+      }
+    ],
+    "sensor_readings": {
+      "camera_rgb": {
+        "resolution": [
+          640,
+          480
+        ],
+        "object_detected": true,
+        "bounding_box": [
+          230,
+          102,
+          65,
+          66
+        ]
+      },
+      "depth_camera": {
+        "mean_depth_m": -0.047,
+        "point_cloud_size": 31266
+      },
+      "force_torque": {
+        "fx_n": 4.06,
+        "fy_n": -3.71,
+        "fz_n": 18.5,
+        "tx_nm": -0.156,
+        "ty_nm": -0.955,
+        "tz_nm": 0.093
+      },
+      "joint_torques": [
+        0.44,
+        2.03,
+        -1.19,
+        -1.82,
+        0.48,
+        2.68
+      ]
+    },
+    "execution_time_ms": 5535,
+    "success": true,
+    "failure_mode": null,
+    "collision_detected": false,
+    "workspace_constraints": {
+      "x_min_m": -0.8,
+      "x_max_m": 0.8,
+      "y_min_m": -0.6,
+      "y_max_m": 0.6,
+      "z_min_m": 0.0,
+      "z_max_m": 1.2
+    },
+    "environment": "warehouse",
+    "lighting": "ir",
+    "timestamp": "2026-08-06T20:18:03.381417+00:00",
+    "data_source": "synthetic_robotics_simulation",
+    "is_synthetic": true
+  },
+  {
+    "id": "ROBO-000010",
+    "task_type": "sorting",
+    "robot_type": "vacuum_gripper",
+    "object": {
+      "type": "circuit_board",
+      "material": "aluminum",
+      "mass_kg": 2.562,
+      "dimensions_cm": {
+        "length": 21.1,
+        "width": 10.2,
+        "height": 3.1
+      }
+    },
+    "grasp_pose": {
+      "position": {
+        "x": 0.2725,
+        "y": 0.1494,
+        "z": 0.7786
+      },
+      "orientation": {
+        "roll_rad": -1.223,
+        "pitch_rad": 1.4767,
+        "yaw_rad": -3.1021
+      }
+    },
+    "trajectory": [
+      {
+        "waypoint_id": 0,
+        "timestamp_ms": 0,
+        "joint_angles": [
+          -0.658,
+          2.6011,
+          -0.85,
+          -1.7545,
+          1.4786,
+          -0.905
+        ],
+        "ee_position": {
+          "x": 0.2906,
+          "y": 0.0858,
+          "z": 0.8903
+        },
+        "gripper_width_mm": 83.5,
+        "gripper_force_n": 25.32
+      },
+      {
+        "waypoint_id": 1,
+        "timestamp_ms": 100,
+        "joint_angles": [
+          2.5179,
+          1.8574,
+          -0.51,
+          2.8378,
+          0.891,
+          1.3
+        ],
+        "ee_position": {
+          "x": 0.1884,
+          "y": 0.098,
+          "z": 0.7884
+        },
+        "gripper_width_mm": 65.1,
+        "gripper_force_n": 40.16
+      },
+      {
+        "waypoint_id": 2,
+        "timestamp_ms": 200,
+        "joint_angles": [
+          3.0441,
+          -2.7574,
+          0.8734,
+          1.6154,
+          -0.3985,
+          0.7291
+        ],
+        "ee_position": {
+          "x": 0.2833,
+          "y": 0.0741,
+          "z": 0.9548
+        },
+        "gripper_width_mm": 21.2,
+        "gripper_force_n": 3.48
+      },
+      {
+        "waypoint_id": 3,
+        "timestamp_ms": 300,
+        "joint_angles": [
+          -2.9167,
+          -1.3029,
+          -0.862,
+          -2.717,
+          2.6338,
+          2.7674
+        ],
+        "ee_position": {
+          "x": 0.2693,
+          "y": 0.239,
+          "z": 0.9453
+        },
+        "gripper_width_mm": 82.0,
+        "gripper_force_n": 15.78
+      },
+      {
+        "waypoint_id": 4,
+        "timestamp_ms": 400,
+        "joint_angles": [
+          -1.8244,
+          -2.9337,
+          -1.37,
+          -0.4206,
+          2.7034,
+          -0.3144
+        ],
+        "ee_position": {
+          "x": 0.3078,
+          "y": 0.101,
+          "z": 0.8964
+        },
+        "gripper_width_mm": 4.0,
+        "gripper_force_n": 7.26
+      },
+      {
+        "waypoint_id": 5,
+        "timestamp_ms": 500,
+        "joint_angles": [
+          2.9175,
+          0.9452,
+          -1.5549,
+          -1.9325,
+          -1.3574,
+          -1.612
+        ],
+        "ee_position": {
+          "x": 0.3313,
+          "y": 0.1583,
+          "z": 0.8074
+        },
+        "gripper_width_mm": 64.6,
+        "gripper_force_n": 48.88
+      },
+      {
+        "waypoint_id": 6,
+        "timestamp_ms": 600,
+        "joint_angles": [
+          0.6073,
+          -0.4924,
+          0.4143,
+          3.0749,
+          -1.0144,
+          0.5959
+        ],
+        "ee_position": {
+          "x": 0.1876,
+          "y": 0.2041,
+          "z": 0.8709
+        },
+        "gripper_width_mm": 15.1,
+        "gripper_force_n": 19.57
+      },
+      {
+        "waypoint_id": 7,
+        "timestamp_ms": 700,
+        "joint_angles": [
+          -2.6435,
+          1.9227,
+          -0.3555,
+          -0.8077,
+          -2.0715,
+          -1.7373
+        ],
+        "ee_position": {
+          "x": 0.3228,
+          "y": 0.1947,
+          "z": 0.8262
+        },
+        "gripper_width_mm": 28.6,
+        "gripper_force_n": 16.55
+      },
+      {
+        "waypoint_id": 8,
+        "timestamp_ms": 800,
+        "joint_angles": [
+          -2.6345,
+          -2.4859,
+          -1.3612,
+          2.6284,
+          -0.2131,
+          -1.3544
+        ],
+        "ee_position": {
+          "x": 0.2474,
+          "y": 0.2246,
+          "z": 0.8993
+        },
+        "gripper_width_mm": 8.0,
+        "gripper_force_n": 29.01
+      }
+    ],
+    "sensor_readings": {
+      "camera_rgb": {
+        "resolution": [
+          640,
+          480
+        ],
+        "object_detected": true,
+        "bounding_box": [
+          162,
+          115,
+          137,
+          111
+        ]
+      },
+      "depth_camera": {
+        "mean_depth_m": 0.8,
+        "point_cloud_size": 3161
+      },
+      "force_torque": {
+        "fx_n": -8.36,
+        "fy_n": -9.01,
+        "fz_n": 18.12,
+        "tx_nm": 0.15,
+        "ty_nm": -1.327,
+        "tz_nm": 0.561
+      },
+      "joint_torques": [
+        1.66,
+        -2.9,
+        -0.06,
+        -3.48,
+        -2.24,
+        -1.8
+      ]
+    },
+    "execution_time_ms": 2811,
+    "success": true,
+    "failure_mode": null,
+    "collision_detected": false,
+    "workspace_constraints": {
+      "x_min_m": -0.8,
+      "x_max_m": 0.8,
+      "y_min_m": -0.6,
+      "y_max_m": 0.6,
+      "z_min_m": 0.0,
+      "z_max_m": 1.2
+    },
+    "environment": "factory",
+    "lighting": "ir",
+    "timestamp": "2026-08-06T20:18:03.381417+00:00",
+    "data_source": "synthetic_robotics_simulation",
+    "is_synthetic": true
+  },
+  {
+    "id": "ROBO-000011",
+    "task_type": "packaging",
+    "robot_type": "scara",
+    "object": {
+      "type": "circuit_board",
+      "material": "plastic_abs",
+      "mass_kg": 2.936,
+      "dimensions_cm": {
+        "length": 28.4,
+        "width": 2.5,
+        "height": 14.8
+      }
+    },
+    "grasp_pose": {
+      "position": {
+        "x": -0.4106,
+        "y": -0.1934,
+        "z": 0.1887
+      },
+      "orientation": {
+        "roll_rad": 1.3593,
+        "pitch_rad": 0.3221,
+        "yaw_rad": -0.5143
+      }
+    },
+    "trajectory": [
+      {
+        "waypoint_id": 0,
+        "timestamp_ms": 0,
+        "joint_angles": [
+          0.5543,
+          -0.7622,
+          1.6893,
+          0.0647,
+          0.0196,
+          -0.0103
+        ],
+        "ee_position": {
+          "x": -0.4002,
+          "y": -0.1515,
+          "z": 0.2524
+        },
+        "gripper_width_mm": 83.9,
+        "gripper_force_n": 31.12
+      },
+      {
+        "waypoint_id": 1,
+        "timestamp_ms": 100,
+        "joint_angles": [
+          -2.0352,
+          1.1996,
+          -0.1677,
+          2.5604,
+          2.4513,
+          -2.9716
+        ],
+        "ee_position": {
+          "x": -0.3824,
+          "y": -0.1447,
+          "z": 0.3188
+        },
+        "gripper_width_mm": 59.5,
+        "gripper_force_n": 6.21
+      },
+      {
+        "waypoint_id": 2,
+        "timestamp_ms": 200,
+        "joint_angles": [
+          2.3336,
+          1.173,
+          1.5349,
+          -2.2775,
+          2.6457,
+          1.1134
+        ],
+        "ee_position": {
+          "x": -0.4779,
+          "y": -0.2333,
+          "z": 0.3264
+        },
+        "gripper_width_mm": 11.5,
+        "gripper_force_n": 22.98
+      },
+      {
+        "waypoint_id": 3,
+        "timestamp_ms": 300,
+        "joint_angles": [
+          -2.0201,
+          -0.0321,
+          1.4615,
+          -1.4939,
+          -3.0173,
+          -1.0843
+        ],
+        "ee_position": {
+          "x": -0.3997,
+          "y": -0.1583,
+          "z": 0.3373
+        },
+        "gripper_width_mm": 50.7,
+        "gripper_force_n": 38.77
+      },
+      {
+        "waypoint_id": 4,
+        "timestamp_ms": 400,
+        "joint_angles": [
+          -2.161,
+          2.3786,
+          -1.7455,
+          0.492,
+          -1.6962,
+          1.1864
+        ],
+        "ee_position": {
+          "x": -0.4159,
+          "y": -0.2388,
+          "z": 0.3807
+        },
+        "gripper_width_mm": 27.9,
+        "gripper_force_n": 7.66
+      },
+      {
+        "waypoint_id": 5,
+        "timestamp_ms": 500,
+        "joint_angles": [
+          1.987,
+          -2.3315,
+          -1.0028,
+          2.597,
+          -1.3042,
+          2.3332
+        ],
+        "ee_position": {
+          "x": -0.4357,
+          "y": -0.1357,
+          "z": 0.376
+        },
+        "gripper_width_mm": 83.6,
+        "gripper_force_n": 29.6
+      },
+      {
+        "waypoint_id": 6,
+        "timestamp_ms": 600,
+        "joint_angles": [
+          -1.0809,
+          -1.7794,
+          2.6555,
+          0.66,
+          -2.3401,
+          1.1287
+        ],
+        "ee_position": {
+          "x": -0.4308,
+          "y": -0.238,
+          "z": 0.2277
+        },
+        "gripper_width_mm": 80.4,
+        "gripper_force_n": 29.85
+      },
+      {
+        "waypoint_id": 7,
+        "timestamp_ms": 700,
+        "joint_angles": [
+          -2.9799,
+          0.5678,
+          -2.5484,
+          -2.4925,
+          -1.3274,
+          -1.6706
+        ],
+        "ee_position": {
+          "x": -0.4229,
+          "y": -0.2376,
+          "z": 0.28
+        },
+        "gripper_width_mm": 23.6,
+        "gripper_force_n": 20.57
+      }
+    ],
+    "sensor_readings": {
+      "camera_rgb": {
+        "resolution": [
+          640,
+          480
+        ],
+        "object_detected": true,
+        "bounding_box": [
+          151,
+          254,
+          143,
+          76
+        ]
+      },
+      "depth_camera": {
+        "mean_depth_m": 0.177,
+        "point_cloud_size": 37691
+      },
+      "force_torque": {
+        "fx_n": -2.98,
+        "fy_n": -6.85,
+        "fz_n": 19.9,
+        "tx_nm": -1.959,
+        "ty_nm": 0.456,
+        "tz_nm": 0.646
+      },
+      "joint_torques": [
+        -0.18,
+        -2.13,
+        -2.86,
+        -3.9,
+        0.35,
+        -0.77
+      ]
+    },
+    "execution_time_ms": 996,
+    "success": true,
+    "failure_mode": null,
+    "collision_detected": false,
+    "workspace_constraints": {
+      "x_min_m": -0.8,
+      "x_max_m": 0.8,
+      "y_min_m": -0.6,
+      "y_max_m": 0.6,
+      "z_min_m": 0.0,
+      "z_max_m": 1.2
+    },
+    "environment": "outdoor",
+    "lighting": "dim",
+    "timestamp": "2026-08-06T20:18:03.381417+00:00",
+    "data_source": "synthetic_robotics_simulation",
+    "is_synthetic": true
+  },
+  {
+    "id": "ROBO-000012",
+    "task_type": "quality_check",
+    "robot_type": "magnetic_gripper",
+    "object": {
+      "type": "cylinder",
+      "material": "wood",
+      "mass_kg": 4.202,
+      "dimensions_cm": {
+        "length": 18.4,
+        "width": 6.3,
+        "height": 2.3
+      }
+    },
+    "grasp_pose": {
+      "position": {
+        "x": 0.09,
+        "y": -0.4999,
+        "z": 0.704
+      },
+      "orientation": {
+        "roll_rad": 1.1615,
+        "pitch_rad": 1.0848,
+        "yaw_rad": 2.5241
+      }
+    },
+    "trajectory": [
+      {
+        "waypoint_id": 0,
+        "timestamp_ms": 0,
+        "joint_angles": [
+          1.5664,
+          -2.5018,
+          -0.6005,
+          -1.3893,
+          -1.0689,
+          -2.9581
+        ],
+        "ee_position": {
+          "x": 0.0941,
+          "y": -0.414,
+          "z": 0.8877
+        },
+        "gripper_width_mm": 35.1,
+        "gripper_force_n": 13.03
+      },
+      {
+        "waypoint_id": 1,
+        "timestamp_ms": 100,
+        "joint_angles": [
+          0.9449,
+          -1.1436,
+          -0.1505,
+          -0.9364,
+          1.3092,
+          1.7305
+        ],
+        "ee_position": {
+          "x": 0.0461,
+          "y": -0.5545,
+          "z": 0.7458
+        },
+        "gripper_width_mm": 50.2,
+        "gripper_force_n": 12.8
+      },
+      {
+        "waypoint_id": 2,
+        "timestamp_ms": 200,
+        "joint_angles": [
+          1.1138,
+          -2.5174,
+          0.1927,
+          -1.0298,
+          -0.1065,
+          2.8937
+        ],
+        "ee_position": {
+          "x": 0.1656,
+          "y": -0.4326,
+          "z": 0.7948
+        },
+        "gripper_width_mm": 70.8,
+        "gripper_force_n": 38.83
+      },
+      {
+        "waypoint_id": 3,
+        "timestamp_ms": 300,
+        "joint_angles": [
+          -2.9588,
+          1.3321,
+          2.4692,
+          -0.0324,
+          2.861,
+          -0.6015
+        ],
+        "ee_position": {
+          "x": 0.0128,
+          "y": -0.539,
+          "z": 0.799
+        },
+        "gripper_width_mm": 0.9,
+        "gripper_force_n": 29.57
+      }
+    ],
+    "sensor_readings": {
+      "camera_rgb": {
+        "resolution": [
+          640,
+          480
+        ],
+        "object_detected": true,
+        "bounding_box": [
+          311,
+          149,
+          120,
+          70
+        ]
+      },
+      "depth_camera": {
+        "mean_depth_m": 0.733,
+        "point_cloud_size": 37260
+      },
+      "force_torque": {
+        "fx_n": 4.79,
+        "fy_n": -1.51,
+        "fz_n": 8.3,
+        "tx_nm": -0.248,
+        "ty_nm": 1.999,
+        "tz_nm": -0.034
+      },
+      "joint_torques": [
+        -1.24,
+        -4.18,
+        2.09,
+        -1.43,
+        -4.79,
+        -2.58
+      ]
+    },
+    "execution_time_ms": 7570,
+    "success": true,
+    "failure_mode": null,
+    "collision_detected": false,
+    "workspace_constraints": {
+      "x_min_m": -0.8,
+      "x_max_m": 0.8,
+      "y_min_m": -0.6,
+      "y_max_m": 0.6,
+      "z_min_m": 0.0,
+      "z_max_m": 1.2
+    },
+    "environment": "factory",
+    "lighting": "uv",
+    "timestamp": "2026-08-06T20:18:03.381417+00:00",
+    "data_source": "synthetic_robotics_simulation",
+    "is_synthetic": true
+  },
+  {
+    "id": "ROBO-000013",
+    "task_type": "pick_and_place",
+    "robot_type": "6dof_arm",
+    "object": {
+      "type": "circuit_board",
+      "material": "steel",
+      "mass_kg": 3.707,
+      "dimensions_cm": {
+        "length": 7.7,
+        "width": 12.0,
+        "height": 6.7
+      }
+    },
+    "grasp_pose": {
+      "position": {
+        "x": -0.4747,
+        "y": -0.4896,
+        "z": 0.2518
+      },
+      "orientation": {
+        "roll_rad": 1.9172,
+        "pitch_rad": -1.4356,
+        "yaw_rad": 0.7015
+      }
+    },
+    "trajectory": [
+      {
+        "waypoint_id": 0,
+        "timestamp_ms": 0,
+        "joint_angles": [
+          2.2284,
+          1.3849,
+          0.1279,
+          -1.7017,
+          -2.9751,
+          -0.0925
+        ],
+        "ee_position": {
+          "x": -0.4394,
+          "y": -0.4754,
+          "z": 0.4133
+        },
+        "gripper_width_mm": 12.8,
+        "gripper_force_n": 18.93
+      },
+      {
+        "waypoint_id": 1,
+        "timestamp_ms": 100,
+        "joint_angles": [
+          2.3604,
+          -1.9294,
+          -2.2981,
+          0.8647,
+          0.7482,
+          3.0372
+        ],
+        "ee_position": {
+          "x": -0.5642,
+          "y": -0.4712,
+          "z": 0.4089
+        },
+        "gripper_width_mm": 44.7,
+        "gripper_force_n": 16.27
+      },
+      {
+        "waypoint_id": 2,
+        "timestamp_ms": 200,
+        "joint_angles": [
+          -3.1036,
+          1.0624,
+          0.4644,
+          -2.473,
+          -0.585,
+          0.3498
+        ],
+        "ee_position": {
+          "x": -0.4453,
+          "y": -0.5214,
+          "z": 0.3883
+        },
+        "gripper_width_mm": 49.4,
+        "gripper_force_n": 5.13
+      },
+      {
+        "waypoint_id": 3,
+        "timestamp_ms": 300,
+        "joint_angles": [
+          -2.8961,
+          -3.0272,
+          -0.0418,
+          1.2594,
+          -0.0454,
+          -2.1727
+        ],
+        "ee_position": {
+          "x": -0.5645,
+          "y": -0.5816,
+          "z": 0.4245
+        },
+        "gripper_width_mm": 10.2,
+        "gripper_force_n": 17.93
+      },
+      {
+        "waypoint_id": 4,
+        "timestamp_ms": 400,
+        "joint_angles": [
+          -2.2599,
+          1.1687,
+          -2.6363,
+          -0.1057,
+          0.7544,
+          -2.4255
+        ],
+        "ee_position": {
+          "x": -0.5337,
+          "y": -0.4189,
+          "z": 0.3887
+        },
+        "gripper_width_mm": 84.8,
+        "gripper_force_n": 22.95
+      },
+      {
+        "waypoint_id": 5,
+        "timestamp_ms": 500,
+        "joint_angles": [
+          -0.6849,
+          2.7201,
+          2.7534,
+          -0.4656,
+          2.1647,
+          -2.26
+        ],
+        "ee_position": {
+          "x": -0.3819,
+          "y": -0.5877,
+          "z": 0.3595
+        },
+        "gripper_width_mm": 17.2,
+        "gripper_force_n": 27.94
+      },
+      {
+        "waypoint_id": 6,
+        "timestamp_ms": 600,
+        "joint_angles": [
+          2.7796,
+          -2.8881,
+          1.209,
+          -2.4755,
+          2.2118,
+          -1.0283
+        ],
+        "ee_position": {
+          "x": -0.5137,
+          "y": -0.4505,
+          "z": 0.2825
+        },
+        "gripper_width_mm": 6.0,
+        "gripper_force_n": 44.93
+      },
+      {
+        "waypoint_id": 7,
+        "timestamp_ms": 700,
+        "joint_angles": [
+          3.1135,
+          -2.2345,
+          2.5397,
+          2.2703,
+          0.0647,
+          -2.7034
+        ],
+        "ee_position": {
+          "x": -0.5291,
+          "y": -0.4136,
+          "z": 0.4507
+        },
+        "gripper_width_mm": 69.6,
+        "gripper_force_n": 26.94
+      }
+    ],
+    "sensor_readings": {
+      "camera_rgb": {
+        "resolution": [
+          640,
+          480
+        ],
+        "object_detected": true,
+        "bounding_box": [
+          334,
+          137,
+          164,
+          130
+        ]
+      },
+      "depth_camera": {
+        "mean_depth_m": 0.253,
+        "point_cloud_size": 34178
+      },
+      "force_torque": {
+        "fx_n": -4.92,
+        "fy_n": 2.71,
+        "fz_n": -4.69,
+        "tx_nm": 1.596,
+        "ty_nm": 1.412,
+        "tz_nm": -0.325
+      },
+      "joint_torques": [
+        0.59,
+        3.08,
+        -3.95,
+        -0.41,
+        3.39,
+        -0.4
+      ]
+    },
+    "execution_time_ms": 1745,
+    "success": true,
+    "failure_mode": null,
+    "collision_detected": false,
+    "workspace_constraints": {
+      "x_min_m": -0.8,
+      "x_max_m": 0.8,
+      "y_min_m": -0.6,
+      "y_max_m": 0.6,
+      "z_min_m": 0.0,
+      "z_max_m": 1.2
+    },
+    "environment": "lab",
+    "lighting": "ir",
+    "timestamp": "2026-08-06T20:18:03.381417+00:00",
+    "data_source": "synthetic_robotics_simulation",
+    "is_synthetic": true
+  },
+  {
+    "id": "ROBO-000014",
+    "task_type": "surface_cleaning",
+    "robot_type": "scara",
+    "object": {
+      "type": "nut",
+      "material": "silicone",
+      "mass_kg": 0.115,
+      "dimensions_cm": {
+        "length": 20.4,
+        "width": 2.1,
+        "height": 10.1
+      }
+    },
+    "grasp_pose": {
+      "position": {
+        "x": 0.374,
+        "y": 0.3103,
+        "z": 0.3454
+      },
+      "orientation": {
+        "roll_rad": -0.7191,
+        "pitch_rad": -1.2259,
+        "yaw_rad": 0.1822
+      }
+    },
+    "trajectory": [
+      {
+        "waypoint_id": 0,
+        "timestamp_ms": 0,
+        "joint_angles": [
+          0.6937,
+          1.5447,
+          -1.2158,
+          -2.6208,
+          0.3402,
+          -1.1175
+        ],
+        "ee_position": {
+          "x": 0.2896,
+          "y": 0.3414,
+          "z": 0.3722
+        },
+        "gripper_width_mm": 10.5,
+        "gripper_force_n": 16.53
+      },
+      {
+        "waypoint_id": 1,
+        "timestamp_ms": 100,
+        "joint_angles": [
+          2.9022,
+          2.8473,
+          -1.3103,
+          0.813,
+          -2.752,
+          0.1459
+        ],
+        "ee_position": {
+          "x": 0.4596,
+          "y": 0.2979,
+          "z": 0.4973
+        },
+        "gripper_width_mm": 13.1,
+        "gripper_force_n": 37.07
+      },
+      {
+        "waypoint_id": 2,
+        "timestamp_ms": 200,
+        "joint_angles": [
+          0.0011,
+          -1.7186,
+          -0.4869,
+          -0.3649,
+          0.0922,
+          1.7386
+        ],
+        "ee_position": {
+          "x": 0.4318,
+          "y": 0.3508,
+          "z": 0.4047
+        },
+        "gripper_width_mm": 2.0,
+        "gripper_force_n": 4.7
+      },
+      {
+        "waypoint_id": 3,
+        "timestamp_ms": 300,
+        "joint_angles": [
+          0.7193,
+          2.3902,
+          2.3842,
+          -1.2655,
+          -2.8204,
+          1.4854
+        ],
+        "ee_position": {
+          "x": 0.3848,
+          "y": 0.2654,
+          "z": 0.3737
+        },
+        "gripper_width_mm": 65.0,
+        "gripper_force_n": 33.03
+      },
+      {
+        "waypoint_id": 4,
+        "timestamp_ms": 400,
+        "joint_angles": [
+          0.2659,
+          -0.7689,
+          0.7756,
+          -0.0847,
+          -2.9748,
+          0.1095
+        ],
+        "ee_position": {
+          "x": 0.434,
+          "y": 0.3967,
+          "z": 0.3992
+        },
+        "gripper_width_mm": 78.1,
+        "gripper_force_n": 0.43
+      },
+      {
+        "waypoint_id": 5,
+        "timestamp_ms": 500,
+        "joint_angles": [
+          -1.4329,
+          0.6132,
+          0.231,
+          -0.9022,
+          -0.979,
+          -1.2674
+        ],
+        "ee_position": {
+          "x": 0.3945,
+          "y": 0.3104,
+          "z": 0.4148
+        },
+        "gripper_width_mm": 8.2,
+        "gripper_force_n": 22.49
+      },
+      {
+        "waypoint_id": 6,
+        "timestamp_ms": 600,
+        "joint_angles": [
+          3.0686,
+          2.2478,
+          0.3454,
+          -1.7235,
+          -2.2815,
+          1.7593
+        ],
+        "ee_position": {
+          "x": 0.3436,
+          "y": 0.3647,
+          "z": 0.5165
+        },
+        "gripper_width_mm": 39.5,
+        "gripper_force_n": 39.51
+      },
+      {
+        "waypoint_id": 7,
+        "timestamp_ms": 700,
+        "joint_angles": [
+          1.1278,
+          -2.2942,
+          -2.0959,
+          2.3179,
+          0.2169,
+          1.0656
+        ],
+        "ee_position": {
+          "x": 0.2883,
+          "y": 0.272,
+          "z": 0.4707
+        },
+        "gripper_width_mm": 1.9,
+        "gripper_force_n": 12.64
+      },
+      {
+        "waypoint_id": 8,
+        "timestamp_ms": 800,
+        "joint_angles": [
+          -1.2691,
+          3.0299,
+          -1.4285,
+          0.0536,
+          1.9455,
+          0.1159
+        ],
+        "ee_position": {
+          "x": 0.2946,
+          "y": 0.254,
+          "z": 0.54
+        },
+        "gripper_width_mm": 42.6,
+        "gripper_force_n": 16.04
+      },
+      {
+        "waypoint_id": 9,
+        "timestamp_ms": 900,
+        "joint_angles": [
+          -0.7674,
+          -2.5734,
+          1.5467,
+          -2.1848,
+          2.4793,
+          0.0976
+        ],
+        "ee_position": {
+          "x": 0.4292,
+          "y": 0.3921,
+          "z": 0.3647
+        },
+        "gripper_width_mm": 47.6,
+        "gripper_force_n": 24.52
+      }
+    ],
+    "sensor_readings": {
+      "camera_rgb": {
+        "resolution": [
+          640,
+          480
+        ],
+        "object_detected": true,
+        "bounding_box": [
+          169,
+          168,
+          198,
+          83
+        ]
+      },
+      "depth_camera": {
+        "mean_depth_m": 0.319,
+        "point_cloud_size": 17569
+      },
+      "force_torque": {
+        "fx_n": 6.57,
+        "fy_n": -6.19,
+        "fz_n": -2.35,
+        "tx_nm": -0.228,
+        "ty_nm": 0.657,
+        "tz_nm": 0.859
+      },
+      "joint_torques": [
+        -3.16,
+        0.05,
+        2.05,
+        0.43,
+        -1.69,
+        -0.96
+      ]
+    },
+    "execution_time_ms": 6999,
+    "success": true,
+    "failure_mode": null,
+    "collision_detected": false,
+    "workspace_constraints": {
+      "x_min_m": -0.8,
+      "x_max_m": 0.8,
+      "y_min_m": -0.6,
+      "y_max_m": 0.6,
+      "z_min_m": 0.0,
+      "z_max_m": 1.2
+    },
+    "environment": "factory",
+    "lighting": "variable",
+    "timestamp": "2026-08-06T20:18:03.381417+00:00",
+    "data_source": "synthetic_robotics_simulation",
+    "is_synthetic": true
+  },
+  {
+    "id": "ROBO-000015",
+    "task_type": "inspection",
+    "robot_type": "humanoid",
+    "object": {
+      "type": "screw",
+      "material": "wood",
+      "mass_kg": 0.393,
+      "dimensions_cm": {
+        "length": 19.6,
+        "width": 13.3,
+        "height": 3.1
+      }
+    },
+    "grasp_pose": {
+      "position": {
+        "x": -0.2804,
+        "y": 0.1868,
+        "z": 0.143
+      },
+      "orientation": {
+        "roll_rad": 1.6198,
+        "pitch_rad": 1.0895,
+        "yaw_rad": 0.1014
+      }
+    },
+    "trajectory": [
+      {
+        "waypoint_id": 0,
+        "timestamp_ms": 0,
+        "joint_angles": [
+          -0.282,
+          2.3506,
+          -0.9566,
+          3.0487,
+          1.0447,
+          1.4191
+        ],
+        "ee_position": {
+          "x": -0.307,
+          "y": 0.127,
+          "z": 0.2019
+        },
+        "gripper_width_mm": 9.3,
+        "gripper_force_n": 31.37
+      },
+      {
+        "waypoint_id": 1,
+        "timestamp_ms": 100,
+        "joint_angles": [
+          -0.0363,
+          -2.6303,
+          -0.2872,
+          3.1272,
+          2.2302,
+          -2.0921
+        ],
+        "ee_position": {
+          "x": -0.2852,
+          "y": 0.1091,
+          "z": 0.2702
+        },
+        "gripper_width_mm": 53.2,
+        "gripper_force_n": 23.92
+      },
+      {
+        "waypoint_id": 2,
+        "timestamp_ms": 200,
+        "joint_angles": [
+          0.0181,
+          2.6718,
+          1.7358,
+          -1.0274,
+          -2.9304,
+          2.2618
+        ],
+        "ee_position": {
+          "x": -0.3512,
+          "y": 0.2796,
+          "z": 0.1432
+        },
+        "gripper_width_mm": 2.1,
+        "gripper_force_n": 48.75
+      }
+    ],
+    "sensor_readings": {
+      "camera_rgb": {
+        "resolution": [
+          640,
+          480
+        ],
+        "object_detected": true,
+        "bounding_box": [
+          226,
+          211,
+          83,
+          123
+        ]
+      },
+      "depth_camera": {
+        "mean_depth_m": 0.117,
+        "point_cloud_size": 11506
+      },
+      "force_torque": {
+        "fx_n": -5.21,
+        "fy_n": 2.79,
+        "fz_n": 19.59,
+        "tx_nm": -0.214,
+        "ty_nm": 0.137,
+        "tz_nm": 0.909
+      },
+      "joint_torques": [
+        -3.72,
+        2.6,
+        -0.29,
+        3.85,
+        -0.96,
+        -0.09
+      ]
+    },
+    "execution_time_ms": 7705,
+    "success": false,
+    "failure_mode": "position_error",
+    "collision_detected": false,
+    "workspace_constraints": {
+      "x_min_m": -0.8,
+      "x_max_m": 0.8,
+      "y_min_m": -0.6,
+      "y_max_m": 0.6,
+      "z_min_m": 0.0,
+      "z_max_m": 1.2
+    },
+    "environment": "kitchen",
+    "lighting": "bright",
+    "timestamp": "2026-08-06T20:18:03.381417+00:00",
+    "data_source": "synthetic_robotics_simulation",
+    "is_synthetic": true
+  },
+  {
+    "id": "ROBO-000016",
+    "task_type": "assembly",
+    "robot_type": "mobile_manipulator",
+    "object": {
+      "type": "can",
+      "material": "steel",
+      "mass_kg": 4.236,
+      "dimensions_cm": {
+        "length": 21.4,
+        "width": 2.0,
+        "height": 11.0
+      }
+    },
+    "grasp_pose": {
+      "position": {
+        "x": 0.3753,
+        "y": -0.4327,
+        "z": 0.5481
+      },
+      "orientation": {
+        "roll_rad": -0.7161,
+        "pitch_rad": 0.2296,
+        "yaw_rad": 1.2454
+      }
+    },
+    "trajectory": [
+      {
+        "waypoint_id": 0,
+        "timestamp_ms": 0,
+        "joint_angles": [
+          0.8033,
+          1.9069,
+          1.8177,
+          -1.18,
+          -0.7418,
+          -2.7977
+        ],
+        "ee_position": {
+          "x": 0.3248,
+          "y": -0.5311,
+          "z": 0.747
+        },
+        "gripper_width_mm": 5.2,
+        "gripper_force_n": 24.11
+      },
+      {
+        "waypoint_id": 1,
+        "timestamp_ms": 100,
+        "joint_angles": [
+          -2.1703,
+          -1.8292,
+          -0.1512,
+          -2.2368,
+          -2.503,
+          1.1599
+        ],
+        "ee_position": {
+          "x": 0.337,
+          "y": -0.4722,
+          "z": 0.6727
+        },
+        "gripper_width_mm": 69.3,
+        "gripper_force_n": 27.25
+      },
+      {
+        "waypoint_id": 2,
+        "timestamp_ms": 200,
+        "joint_angles": [
+          -1.9602,
+          -1.6482,
+          0.0643,
+          -1.6346,
+          2.4166,
+          0.8407
+        ],
+        "ee_position": {
+          "x": 0.3111,
+          "y": -0.4642,
+          "z": 0.5554
+        },
+        "gripper_width_mm": 60.5,
+        "gripper_force_n": 21.03
+      },
+      {
+        "waypoint_id": 3,
+        "timestamp_ms": 300,
+        "joint_angles": [
+          1.4866,
+          1.4256,
+          1.5482,
+          -1.9024,
+          0.9764,
+          0.4784
+        ],
+        "ee_position": {
+          "x": 0.4263,
+          "y": -0.4171,
+          "z": 0.6472
+        },
+        "gripper_width_mm": 45.4,
+        "gripper_force_n": 5.63
+      },
+      {
+        "waypoint_id": 4,
+        "timestamp_ms": 400,
+        "joint_angles": [
+          2.9621,
+          1.3934,
+          0.771,
+          -2.3615,
+          -2.813,
+          -2.6968
+        ],
+        "ee_position": {
+          "x": 0.2793,
+          "y": -0.4256,
+          "z": 0.7258
+        },
+        "gripper_width_mm": 30.1,
+        "gripper_force_n": 45.48
+      },
+      {
+        "waypoint_id": 5,
+        "timestamp_ms": 500,
+        "joint_angles": [
+          -1.6801,
+          -0.6552,
+          0.323,
+          2.0774,
+          0.0111,
+          -2.6771
+        ],
+        "ee_position": {
+          "x": 0.4508,
+          "y": -0.4973,
+          "z": 0.5866
+        },
+        "gripper_width_mm": 68.5,
+        "gripper_force_n": 41.18
+      },
+      {
+        "waypoint_id": 6,
+        "timestamp_ms": 600,
+        "joint_angles": [
+          -1.748,
+          -1.8809,
+          2.5178,
+          -3.1263,
+          2.7411,
+          2.6739
+        ],
+        "ee_position": {
+          "x": 0.3155,
+          "y": -0.4296,
+          "z": 0.69
+        },
+        "gripper_width_mm": 57.4,
+        "gripper_force_n": 44.24
+      },
+      {
+        "waypoint_id": 7,
+        "timestamp_ms": 700,
+        "joint_angles": [
+          -1.8753,
+          1.1978,
+          2.0099,
+          2.6364,
+          -0.3289,
+          0.2861
+        ],
+        "ee_position": {
+          "x": 0.3432,
+          "y": -0.4817,
+          "z": 0.5897
+        },
+        "gripper_width_mm": 81.5,
+        "gripper_force_n": 26.96
+      },
+      {
+        "waypoint_id": 8,
+        "timestamp_ms": 800,
+        "joint_angles": [
+          -0.8973,
+          -0.8456,
+          -0.5956,
+          2.1706,
+          -0.546,
+          2.2162
+        ],
+        "ee_position": {
+          "x": 0.2788,
+          "y": -0.3449,
+          "z": 0.6986
+        },
+        "gripper_width_mm": 53.5,
+        "gripper_force_n": 4.61
+      }
+    ],
+    "sensor_readings": {
+      "camera_rgb": {
+        "resolution": [
+          640,
+          480
+        ],
+        "object_detected": true,
+        "bounding_box": [
+          101,
+          127,
+          161,
+          57
+        ]
+      },
+      "depth_camera": {
+        "mean_depth_m": 0.521,
+        "point_cloud_size": 9738
+      },
+      "force_torque": {
+        "fx_n": -6.15,
+        "fy_n": 9.15,
+        "fz_n": 11.28,
+        "tx_nm": -1.688,
+        "ty_nm": -1.972,
+        "tz_nm": 0.683
+      },
+      "joint_torques": [
+        2.21,
+        3.4,
+        -4.41,
+        -1.0,
+        3.14,
+        3.52
+      ]
+    },
+    "execution_time_ms": 689,
+    "success": true,
+    "failure_mode": null,
+    "collision_detected": false,
+    "workspace_constraints": {
+      "x_min_m": -0.8,
+      "x_max_m": 0.8,
+      "y_min_m": -0.6,
+      "y_max_m": 0.6,
+      "z_min_m": 0.0,
+      "z_max_m": 1.2
+    },
+    "environment": "outdoor",
+    "lighting": "uv",
+    "timestamp": "2026-08-06T20:18:03.381417+00:00",
+    "data_source": "synthetic_robotics_simulation",
+    "is_synthetic": true
+  },
+  {
+    "id": "ROBO-000017",
+    "task_type": "palletizing",
+    "robot_type": "cobot",
+    "object": {
+      "type": "screw",
+      "material": "aluminum",
+      "mass_kg": 4.236,
+      "dimensions_cm": {
+        "length": 8.5,
+        "width": 12.7,
+        "height": 11.9
+      }
+    },
+    "grasp_pose": {
+      "position": {
+        "x": -0.317,
+        "y": -0.2365,
+        "z": 0.5352
+      },
+      "orientation": {
+        "roll_rad": 1.1286,
+        "pitch_rad": 0.8812,
+        "yaw_rad": 0.2143
+      }
+    },
+    "trajectory": [
+      {
+        "waypoint_id": 0,
+        "timestamp_ms": 0,
+        "joint_angles": [
+          -1.5849,
+          -1.3878,
+          1.4051,
+          1.7081,
+          2.1687,
+          -0.1477
+        ],
+        "ee_position": {
+          "x": -0.2624,
+          "y": -0.1642,
+          "z": 0.6632
+        },
+        "gripper_width_mm": 61.3,
+        "gripper_force_n": 16.41
+      },
+      {
+        "waypoint_id": 1,
+        "timestamp_ms": 100,
+        "joint_angles": [
+          -1.2468,
+          -0.8763,
+          0.3856,
+          -2.2486,
+          0.0201,
+          0.202
+        ],
+        "ee_position": {
+          "x": -0.4165,
+          "y": -0.2208,
+          "z": 0.6163
+        },
+        "gripper_width_mm": 58.8,
+        "gripper_force_n": 39.21
+      },
+      {
+        "waypoint_id": 2,
+        "timestamp_ms": 200,
+        "joint_angles": [
+          0.4938,
+          -1.3102,
+          -0.3551,
+          2.6716,
+          -2.2753,
+          0.8963
+        ],
+        "ee_position": {
+          "x": -0.3384,
+          "y": -0.2721,
+          "z": 0.6322
+        },
+        "gripper_width_mm": 75.4,
+        "gripper_force_n": 28.66
+      },
+      {
+        "waypoint_id": 3,
+        "timestamp_ms": 300,
+        "joint_angles": [
+          -0.4747,
+          2.6521,
+          0.2373,
+          -2.3574,
+          1.3504,
+          1.1384
+        ],
+        "ee_position": {
+          "x": -0.3888,
+          "y": -0.3025,
+          "z": 0.7302
+        },
+        "gripper_width_mm": 82.6,
+        "gripper_force_n": 48.44
+      },
+      {
+        "waypoint_id": 4,
+        "timestamp_ms": 400,
+        "joint_angles": [
+          2.2799,
+          -2.0298,
+          1.1127,
+          1.8571,
+          1.88,
+          -2.866
+        ],
+        "ee_position": {
+          "x": -0.2796,
+          "y": -0.1885,
+          "z": 0.719
+        },
+        "gripper_width_mm": 63.8,
+        "gripper_force_n": 29.54
+      },
+      {
+        "waypoint_id": 5,
+        "timestamp_ms": 500,
+        "joint_angles": [
+          -0.608,
+          -0.5734,
+          -2.4858,
+          2.9542,
+          2.6294,
+          -2.2398
+        ],
+        "ee_position": {
+          "x": -0.3061,
+          "y": -0.1508,
+          "z": 0.6512
+        },
+        "gripper_width_mm": 62.5,
+        "gripper_force_n": 42.25
+      },
+      {
+        "waypoint_id": 6,
+        "timestamp_ms": 600,
+        "joint_angles": [
+          -0.2621,
+          -0.9624,
+          -2.5337,
+          -0.2905,
+          -1.0276,
+          -1.8753
+        ],
+        "ee_position": {
+          "x": -0.3806,
+          "y": -0.2071,
+          "z": 0.7345
+        },
+        "gripper_width_mm": 28.8,
+        "gripper_force_n": 41.15
+      },
+      {
+        "waypoint_id": 7,
+        "timestamp_ms": 700,
+        "joint_angles": [
+          2.8549,
+          1.9036,
+          -2.7552,
+          -1.4167,
+          -0.5736,
+          1.532
+        ],
+        "ee_position": {
+          "x": -0.252,
+          "y": -0.1782,
+          "z": 0.6243
+        },
+        "gripper_width_mm": 68.5,
+        "gripper_force_n": 2.43
+      }
+    ],
+    "sensor_readings": {
+      "camera_rgb": {
+        "resolution": [
+          640,
+          480
+        ],
+        "object_detected": true,
+        "bounding_box": [
+          362,
+          192,
+          198,
+          50
+        ]
+      },
+      "depth_camera": {
+        "mean_depth_m": 0.558,
+        "point_cloud_size": 29799
+      },
+      "force_torque": {
+        "fx_n": -7.19,
+        "fy_n": -0.82,
+        "fz_n": 9.05,
+        "tx_nm": 0.539,
+        "ty_nm": 0.136,
+        "tz_nm": 0.621
+      },
+      "joint_torques": [
+        2.86,
+        -0.52,
+        -0.91,
+        2.88,
+        3.45,
+        4.98
+      ]
+    },
+    "execution_time_ms": 2006,
+    "success": true,
+    "failure_mode": null,
+    "collision_detected": false,
+    "workspace_constraints": {
+      "x_min_m": -0.8,
+      "x_max_m": 0.8,
+      "y_min_m": -0.6,
+      "y_max_m": 0.6,
+      "z_min_m": 0.0,
+      "z_max_m": 1.2
+    },
+    "environment": "lab",
+    "lighting": "dim",
+    "timestamp": "2026-08-06T20:18:03.381417+00:00",
+    "data_source": "synthetic_robotics_simulation",
+    "is_synthetic": true
+  },
+  {
+    "id": "ROBO-000018",
+    "task_type": "assembly",
+    "robot_type": "vacuum_gripper",
+    "object": {
+      "type": "sphere",
+      "material": "carbon_fiber",
+      "mass_kg": 1.669,
+      "dimensions_cm": {
+        "length": 28.9,
+        "width": 16.9,
+        "height": 2.3
+      }
+    },
+    "grasp_pose": {
+      "position": {
+        "x": -0.267,
+        "y": 0.4638,
+        "z": 0.5819
+      },
+      "orientation": {
+        "roll_rad": 2.4329,
+        "pitch_rad": -1.0822,
+        "yaw_rad": 0.7994
+      }
+    },
+    "trajectory": [
+      {
+        "waypoint_id": 0,
+        "timestamp_ms": 0,
+        "joint_angles": [
+          0.8977,
+          2.4022,
+          0.3577,
+          -0.2762,
+          -2.5716,
+          -1.2802
+        ],
+        "ee_position": {
+          "x": -0.2784,
+          "y": 0.5298,
+          "z": 0.6412
+        },
+        "gripper_width_mm": 77.7,
+        "gripper_force_n": 38.59
+      },
+      {
+        "waypoint_id": 1,
+        "timestamp_ms": 100,
+        "joint_angles": [
+          1.6436,
+          2.5633,
+          -2.8398,
+          -2.859,
+          -1.0255,
+          0.7237
+        ],
+        "ee_position": {
+          "x": -0.3628,
+          "y": 0.5615,
+          "z": 0.7326
+        },
+        "gripper_width_mm": 21.4,
+        "gripper_force_n": 39.64
+      },
+      {
+        "waypoint_id": 2,
+        "timestamp_ms": 200,
+        "joint_angles": [
+          0.632,
+          2.7848,
+          -0.0781,
+          -1.9001,
+          -0.1658,
+          -0.9451
+        ],
+        "ee_position": {
+          "x": -0.366,
+          "y": 0.4343,
+          "z": 0.7612
+        },
+        "gripper_width_mm": 82.7,
+        "gripper_force_n": 3.18
+      },
+      {
+        "waypoint_id": 3,
+        "timestamp_ms": 300,
+        "joint_angles": [
+          -2.9915,
+          1.2665,
+          2.0497,
+          0.9193,
+          1.0604,
+          -2.1802
+        ],
+        "ee_position": {
+          "x": -0.3602,
+          "y": 0.4746,
+          "z": 0.757
+        },
+        "gripper_width_mm": 0.3,
+        "gripper_force_n": 43.28
+      }
+    ],
+    "sensor_readings": {
+      "camera_rgb": {
+        "resolution": [
+          640,
+          480
+        ],
+        "object_detected": true,
+        "bounding_box": [
+          285,
+          222,
+          174,
+          78
+        ]
+      },
+      "depth_camera": {
+        "mean_depth_m": 0.589,
+        "point_cloud_size": 32321
+      },
+      "force_torque": {
+        "fx_n": -3.19,
+        "fy_n": -4.93,
+        "fz_n": 9.74,
+        "tx_nm": 1.131,
+        "ty_nm": 1.441,
+        "tz_nm": -0.028
+      },
+      "joint_torques": [
+        -0.09,
+        -4.02,
+        -1.48,
+        3.75,
+        4.68,
+        -1.32
+      ]
+    },
+    "execution_time_ms": 7958,
+    "success": true,
+    "failure_mode": null,
+    "collision_detected": false,
+    "workspace_constraints": {
+      "x_min_m": -0.8,
+      "x_max_m": 0.8,
+      "y_min_m": -0.6,
+      "y_max_m": 0.6,
+      "z_min_m": 0.0,
+      "z_max_m": 1.2
+    },
+    "environment": "lab",
+    "lighting": "dim",
+    "timestamp": "2026-08-06T20:18:03.381417+00:00",
+    "data_source": "synthetic_robotics_simulation",
+    "is_synthetic": true
+  },
+  {
+    "id": "ROBO-000019",
+    "task_type": "packaging",
+    "robot_type": "scara",
+    "object": {
+      "type": "nut",
+      "material": "rubber",
+      "mass_kg": 1.264,
+      "dimensions_cm": {
+        "length": 5.8,
+        "width": 1.7,
+        "height": 4.5
+      }
+    },
+    "grasp_pose": {
+      "position": {
+        "x": 0.0892,
+        "y": -0.0716,
+        "z": 0.7015
+      },
+      "orientation": {
+        "roll_rad": 0.1705,
+        "pitch_rad": 1.2232,
+        "yaw_rad": -2.2706
+      }
+    },
+    "trajectory": [
+      {
+        "waypoint_id": 0,
+        "timestamp_ms": 0,
+        "joint_angles": [
+          0.3011,
+          1.5416,
+          -1.1887,
+          1.3076,
+          2.8649,
+          1.2868
+        ],
+        "ee_position": {
+          "x": 0.0309,
+          "y": -0.1255,
+          "z": 0.8993
+        },
+        "gripper_width_mm": 64.8,
+        "gripper_force_n": 16.11
+      },
+      {
+        "waypoint_id": 1,
+        "timestamp_ms": 100,
+        "joint_angles": [
+          0.2896,
+          2.6398,
+          1.6746,
+          0.8883,
+          -2.2219,
+          0.1495
+        ],
+        "ee_position": {
+          "x": 0.0511,
+          "y": -0.1519,
+          "z": 0.7234
+        },
+        "gripper_width_mm": 24.7,
+        "gripper_force_n": 22.21
+      },
+      {
+        "waypoint_id": 2,
+        "timestamp_ms": 200,
+        "joint_angles": [
+          1.1235,
+          1.5333,
+          -0.1167,
+          -2.7416,
+          1.7318,
+          2.7172
+        ],
+        "ee_position": {
+          "x": 0.1079,
+          "y": -0.0482,
+          "z": 0.8322
+        },
+        "gripper_width_mm": 65.5,
+        "gripper_force_n": 3.11
+      },
+      {
+        "waypoint_id": 3,
+        "timestamp_ms": 300,
+        "joint_angles": [
+          -0.9875,
+          0.133,
+          -1.8001,
+          2.5104,
+          -2.4863,
+          -0.8797
+        ],
+        "ee_position": {
+          "x": 0.1007,
+          "y": -0.0198,
+          "z": 0.79
+        },
+        "gripper_width_mm": 43.4,
+        "gripper_force_n": 25.45
+      },
+      {
+        "waypoint_id": 4,
+        "timestamp_ms": 400,
+        "joint_angles": [
+          -0.0882,
+          1.6801,
+          2.9817,
+          -0.6595,
+          0.1222,
+          -2.9347
+        ],
+        "ee_position": {
+          "x": 0.0615,
+          "y": -0.0093,
+          "z": 0.7226
+        },
+        "gripper_width_mm": 12.5,
+        "gripper_force_n": 44.69
+      }
+    ],
+    "sensor_readings": {
+      "camera_rgb": {
+        "resolution": [
+          640,
+          480
+        ],
+        "object_detected": true,
+        "bounding_box": [
+          111,
+          145,
+          173,
+          137
+        ]
+      },
+      "depth_camera": {
+        "mean_depth_m": 0.72,
+        "point_cloud_size": 9548
+      },
+      "force_torque": {
+        "fx_n": -4.92,
+        "fy_n": -3.86,
+        "fz_n": 18.61,
+        "tx_nm": 0.006,
+        "ty_nm": 1.628,
+        "tz_nm": -0.908
+      },
+      "joint_torques": [
+        3.48,
+        -3.79,
+        -2.85,
+        1.18,
+        -2.26,
+        0.49
+      ]
+    },
+    "execution_time_ms": 7290,
+    "success": true,
+    "failure_mode": null,
+    "collision_detected": false,
+    "workspace_constraints": {
+      "x_min_m": -0.8,
+      "x_max_m": 0.8,
+      "y_min_m": -0.6,
+      "y_max_m": 0.6,
+      "z_min_m": 0.0,
+      "z_max_m": 1.2
+    },
+    "environment": "kitchen",
+    "lighting": "uv",
+    "timestamp": "2026-08-06T20:18:03.381417+00:00",
+    "data_source": "synthetic_robotics_simulation",
+    "is_synthetic": true
+  },
+  {
+    "id": "ROBO-000020",
+    "task_type": "bin_picking",
+    "robot_type": "6dof_arm",
+    "object": {
+      "type": "washer",
+      "material": "plastic_abs",
+      "mass_kg": 2.076,
+      "dimensions_cm": {
+        "length": 22.6,
+        "width": 17.3,
+        "height": 11.7
+      }
+    },
+    "grasp_pose": {
+      "position": {
+        "x": 0.2988,
+        "y": -0.2117,
+        "z": 0.0697
+      },
+      "orientation": {
+        "roll_rad": -2.3917,
+        "pitch_rad": 0.9691,
+        "yaw_rad": -1.172
+      }
+    },
+    "trajectory": [
+      {
+        "waypoint_id": 0,
+        "timestamp_ms": 0,
+        "joint_angles": [
+          3.0393,
+          -0.1961,
+          -2.3508,
+          -0.1026,
+          1.419,
+          -0.3947
+        ],
+        "ee_position": {
+          "x": 0.1994,
+          "y": -0.1547,
+          "z": 0.2658
+        },
+        "gripper_width_mm": 30.6,
+        "gripper_force_n": 6.8
+      },
+      {
+        "waypoint_id": 1,
+        "timestamp_ms": 100,
+        "joint_angles": [
+          -0.1989,
+          -1.4178,
+          -0.0092,
+          0.99,
+          2.0172,
+          2.7861
+        ],
+        "ee_position": {
+          "x": 0.3695,
+          "y": -0.1656,
+          "z": 0.2157
+        },
+        "gripper_width_mm": 48.3,
+        "gripper_force_n": 5.78
+      },
+      {
+        "waypoint_id": 2,
+        "timestamp_ms": 200,
+        "joint_angles": [
+          2.225,
+          -1.5799,
+          -1.9668,
+          1.3801,
+          -2.6228,
+          2.3784
+        ],
+        "ee_position": {
+          "x": 0.3459,
+          "y": -0.2936,
+          "z": 0.1191
+        },
+        "gripper_width_mm": 78.0,
+        "gripper_force_n": 18.2
+      },
+      {
+        "waypoint_id": 3,
+        "timestamp_ms": 300,
+        "joint_angles": [
+          2.8728,
+          0.4252,
+          2.9273,
+          -2.0593,
+          -0.6921,
+          1.0344
+        ],
+        "ee_position": {
+          "x": 0.3404,
+          "y": -0.1822,
+          "z": 0.1611
+        },
+        "gripper_width_mm": 27.2,
+        "gripper_force_n": 34.68
+      },
+      {
+        "waypoint_id": 4,
+        "timestamp_ms": 400,
+        "joint_angles": [
+          -2.2223,
+          1.5515,
+          -0.0421,
+          -1.785,
+          2.9992,
+          0.6948
+        ],
+        "ee_position": {
+          "x": 0.36,
+          "y": -0.1804,
+          "z": 0.2174
+        },
+        "gripper_width_mm": 48.9,
+        "gripper_force_n": 43.09
+      },
+      {
+        "waypoint_id": 5,
+        "timestamp_ms": 500,
+        "joint_angles": [
+          -0.9162,
+          2.6249,
+          -1.4645,
+          -3.1376,
+          -1.7259,
+          0.3996
+        ],
+        "ee_position": {
+          "x": 0.2314,
+          "y": -0.206,
+          "z": 0.164
+        },
+        "gripper_width_mm": 34.5,
+        "gripper_force_n": 1.94
+      }
+    ],
+    "sensor_readings": {
+      "camera_rgb": {
+        "resolution": [
+          640,
+          480
+        ],
+        "object_detected": true,
+        "bounding_box": [
+          351,
+          107,
+          178,
+          62
+        ]
+      },
+      "depth_camera": {
+        "mean_depth_m": 0.066,
+        "point_cloud_size": 48175
+      },
+      "force_torque": {
+        "fx_n": 3.9,
+        "fy_n": 4.83,
+        "fz_n": 0.74,
+        "tx_nm": -0.478,
+        "ty_nm": -0.726,
+        "tz_nm": -0.262
+      },
+      "joint_torques": [
+        1.05,
+        -2.57,
+        -1.62,
+        4.42,
+        3.58,
+        -4.58
+      ]
+    },
+    "execution_time_ms": 6606,
+    "success": true,
+    "failure_mode": null,
+    "collision_detected": false,
+    "workspace_constraints": {
+      "x_min_m": -0.8,
+      "x_max_m": 0.8,
+      "y_min_m": -0.6,
+      "y_max_m": 0.6,
+      "z_min_m": 0.0,
+      "z_max_m": 1.2
+    },
+    "environment": "factory",
+    "lighting": "ir",
+    "timestamp": "2026-08-06T20:18:03.381417+00:00",
+    "data_source": "synthetic_robotics_simulation",
+    "is_synthetic": true
+  }
+]
