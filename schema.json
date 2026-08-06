@@ -1,0 +1,445 @@
+{
+  "dataset_name": "Robot Manipulation & Perception Dataset",
+  "domain": "robotics",
+  "version": "1.0.0",
+  "created": "2026-08-06T20:18:10.182423+00:00",
+  "total_records": 3000,
+  "formats": [
+    "json",
+    "csv",
+    "parquet"
+  ],
+  "license": "CC-BY-SA-4.0",
+  "price_usd": 80.0,
+  "academic_free": true,
+  "fields": [
+    {
+      "name": "id",
+      "type": "categorical",
+      "description": "Id",
+      "example": "ROBO-000001",
+      "nullable": false
+    },
+    {
+      "name": "task_type",
+      "type": "categorical",
+      "description": "Task Type",
+      "example": "palletizing",
+      "nullable": false
+    },
+    {
+      "name": "robot_type",
+      "type": "categorical",
+      "description": "Robot Type",
+      "example": "parallel_gripper",
+      "nullable": false
+    },
+    {
+      "name": "object",
+      "type": "object",
+      "description": "Object",
+      "example": {
+        "type": "sphere",
+        "material": "ceramic",
+        "mass_kg": 1.791,
+        "dimensions_cm": {
+          "length": 17.5,
+          "width": 12.7,
+          "height": 10.3
+        }
+      },
+      "nullable": false
+    },
+    {
+      "name": "grasp_pose",
+      "type": "object",
+      "description": "Grasp Pose",
+      "example": {
+        "position": {
+          "x": 0.1811,
+          "y": -0.1696,
+          "z": 0.5148
+        },
+        "orientation": {
+          "roll_rad": -1.5672,
+          "pitch_rad": 1.5426,
+          "yaw_rad": -1.7817
+        }
+      },
+      "nullable": false
+    },
+    {
+      "name": "trajectory",
+      "type": "array",
+      "description": "Trajectory",
+      "example": [
+        {
+          "waypoint_id": 0,
+          "timestamp_ms": 0,
+          "joint_angles": [
+            2.3488,
+            -0.5165,
+            -1.6897,
+            -0.736,
+            -2.6629,
+            0.5055
+          ],
+          "ee_position": {
+            "x": 0.0932,
+            "y": -0.1667,
+            "z": 0.7103
+          },
+          "gripper_width_mm": 80.1,
+          "gripper_force_n": 39.75
+        },
+        {
+          "waypoint_id": 1,
+          "timestamp_ms": 100,
+          "joint_angles": [
+            0.8373,
+            1.0181,
+            -2.162,
+            -1.6427,
+            -0.9217,
+            1.8997
+          ],
+          "ee_position": {
+            "x": 0.2581,
+            "y": -0.1165,
+            "z": 0.5326
+          },
+          "gripper_width_mm": 27.6,
+          "gripper_force_n": 42.68
+        },
+        {
+          "waypoint_id": 2,
+          "timestamp_ms": 200,
+          "joint_angles": [
+            2.0809,
+            2.3656,
+            0.7241,
+            -2.189,
+            1.7023,
+            1.2213
+          ],
+          "ee_position": {
+            "x": 0.244,
+            "y": -0.0909,
+            "z": 0.6609
+          },
+          "gripper_width_mm": 11.1,
+          "gripper_force_n": 24.51
+        },
+        {
+          "waypoint_id": 3,
+          "timestamp_ms": 300,
+          "joint_angles": [
+            -2.0982,
+            -2.246,
+            1.9151,
+            1.9636,
+            -1.1538,
+            -1.167
+          ],
+          "ee_position": {
+            "x": 0.2609,
+            "y": -0.0793,
+            "z": 0.608
+          },
+          "gripper_width_mm": 1.8,
+          "gripper_force_n": 30.31
+        },
+        {
+          "waypoint_id": 4,
+          "timestamp_ms": 400,
+          "joint_angles": [
+            2.8232,
+            1.8972,
+            -0.6165,
+            -0.1203,
+            -1.121,
+            2.886
+          ],
+          "ee_position": {
+            "x": 0.213,
+            "y": -0.1897,
+            "z": 0.6901
+          },
+          "gripper_width_mm": 32.8,
+          "gripper_force_n": 6.28
+        },
+        {
+          "waypoint_id": 5,
+          "timestamp_ms": 500,
+          "joint_angles": [
+            -1.6714,
+            1.9904,
+            -3.1163,
+            0.6687,
+            2.2351,
+            2.9268
+          ],
+          "ee_position": {
+            "x": 0.2065,
+            "y": -0.2353,
+            "z": 0.6422
+          },
+          "gripper_width_mm": 81.8,
+          "gripper_force_n": 26.93
+        },
+        {
+          "waypoint_id": 6,
+          "timestamp_ms": 600,
+          "joint_angles": [
+            1.671,
+            -2.4,
+            0.5228,
+            3.0628,
+            1.8163,
+            0.8537
+          ],
+          "ee_position": {
+            "x": 0.1415,
+            "y": -0.2358,
+            "z": 0.6489
+          },
+          "gripper_width_mm": 12.8,
+          "gripper_force_n": 46.84
+        },
+        {
+          "waypoint_id": 7,
+          "timestamp_ms": 700,
+          "joint_angles": [
+            2.618,
+            -1.246,
+            2.8388,
+            0.8256,
+            -2.2667,
+            2.4412
+          ],
+          "ee_position": {
+            "x": 0.2342,
+            "y": -0.2017,
+            "z": 0.6269
+          },
+          "gripper_width_mm": 25.4,
+          "gripper_force_n": 33.23
+        }
+      ],
+      "nullable": false
+    },
+    {
+      "name": "sensor_readings",
+      "type": "object",
+      "description": "Sensor Readings",
+      "example": {
+        "camera_rgb": {
+          "resolution": [
+            640,
+            480
+          ],
+          "object_detected": true,
+          "bounding_box": [
+            388,
+            154,
+            197,
+            53
+          ]
+        },
+        "depth_camera": {
+          "mean_depth_m": 0.55,
+          "point_cloud_size": 1945
+        },
+        "force_torque": {
+          "fx_n": -7.27,
+          "fy_n": 6.46,
+          "fz_n": 10.26,
+          "tx_nm": 0.495,
+          "ty_nm": 0.212,
+          "tz_nm": 0.348
+        },
+        "joint_torques": [
+          -2.85,
+          -1.01,
+          0.43,
+          2.45,
+          4.02,
+          -0.49
+        ]
+      },
+      "nullable": false
+    },
+    {
+      "name": "execution_time_ms",
+      "type": "integer",
+      "description": "Execution Time Ms",
+      "example": 4914,
+      "nullable": false
+    },
+    {
+      "name": "success",
+      "type": "boolean",
+      "description": "Success",
+      "example": true,
+      "nullable": false
+    },
+    {
+      "name": "failure_mode",
+      "type": "categorical",
+      "description": "Failure Mode",
+      "example": null,
+      "nullable": false
+    },
+    {
+      "name": "collision_detected",
+      "type": "boolean",
+      "description": "Collision Detected",
+      "example": false,
+      "nullable": false
+    },
+    {
+      "name": "workspace_constraints",
+      "type": "object",
+      "description": "Workspace Constraints",
+      "example": {
+        "x_min_m": -0.8,
+        "x_max_m": 0.8,
+        "y_min_m": -0.6,
+        "y_max_m": 0.6,
+        "z_min_m": 0.0,
+        "z_max_m": 1.2
+      },
+      "nullable": false
+    },
+    {
+      "name": "environment",
+      "type": "categorical",
+      "description": "Environment",
+      "example": "warehouse",
+      "nullable": false
+    },
+    {
+      "name": "lighting",
+      "type": "categorical",
+      "description": "Lighting",
+      "example": "bright",
+      "nullable": false
+    },
+    {
+      "name": "timestamp",
+      "type": "categorical",
+      "description": "Timestamp",
+      "example": "2026-08-06T20:18:03.381417+00:00",
+      "nullable": false
+    },
+    {
+      "name": "data_source",
+      "type": "categorical",
+      "description": "Data Source",
+      "example": "synthetic_robotics_simulation",
+      "nullable": false
+    },
+    {
+      "name": "is_synthetic",
+      "type": "boolean",
+      "description": "Is Synthetic",
+      "example": true,
+      "nullable": false
+    }
+  ],
+  "statistics": {
+    "total": 3000,
+    "id_distribution": {
+      "ROBO-000001": 1,
+      "ROBO-000002": 1,
+      "ROBO-000003": 1,
+      "ROBO-000004": 1,
+      "ROBO-000005": 1,
+      "ROBO-000006": 1,
+      "ROBO-000007": 1,
+      "ROBO-000008": 1,
+      "ROBO-000009": 1,
+      "ROBO-000010": 1,
+      "ROBO-000011": 1,
+      "ROBO-000012": 1,
+      "ROBO-000013": 1,
+      "ROBO-000014": 1,
+      "ROBO-000015": 1,
+      "ROBO-000016": 1,
+      "ROBO-000017": 1,
+      "ROBO-000018": 1,
+      "ROBO-000019": 1,
+      "ROBO-000020": 1
+    },
+    "task_type_distribution": {
+      "assembly": 327,
+      "bin_picking": 323,
+      "inspection": 316,
+      "quality_check": 310,
+      "surface_cleaning": 299,
+      "welding": 299,
+      "palletizing": 292,
+      "packaging": 283,
+      "pick_and_place": 281,
+      "sorting": 270
+    },
+    "robot_type_distribution": {
+      "6dof_arm": 367,
+      "scara": 362,
+      "magnetic_gripper": 345,
+      "parallel_gripper": 333,
+      "delta": 325,
+      "vacuum_gripper": 321,
+      "humanoid": 316,
+      "mobile_manipulator": 316,
+      "cobot": 315
+    },
+    "failure_mode_distribution": {
+      "None": 2380,
+      "slippage": 129,
+      "force_limit": 127,
+      "collision": 124,
+      "position_error": 121,
+      "timeout": 119
+    },
+    "environment_distribution": {
+      "lab": 646,
+      "kitchen": 590,
+      "factory": 589,
+      "outdoor": 589,
+      "warehouse": 586
+    },
+    "lighting_distribution": {
+      "dim": 639,
+      "variable": 618,
+      "ir": 604,
+      "bright": 570,
+      "uv": 569
+    },
+    "timestamp_distribution": {
+      "2026-08-06T20:18:03.766074+00:00": 95,
+      "2026-08-06T20:18:03.790414+00:00": 94,
+      "2026-08-06T20:18:03.757612+00:00": 92,
+      "2026-08-06T20:18:03.798733+00:00": 92,
+      "2026-08-06T20:18:03.619022+00:00": 89,
+      "2026-08-06T20:18:03.405824+00:00": 86,
+      "2026-08-06T20:18:03.586493+00:00": 85,
+      "2026-08-06T20:18:03.610855+00:00": 85,
+      "2026-08-06T20:18:03.627056+00:00": 85,
+      "2026-08-06T20:18:03.578039+00:00": 84,
+      "2026-08-06T20:18:03.751076+00:00": 83,
+      "2026-08-06T20:18:03.594541+00:00": 82,
+      "2026-08-06T20:18:03.782373+00:00": 81,
+      "2026-08-06T20:18:03.397772+00:00": 80,
+      "2026-08-06T20:18:03.716859+00:00": 79,
+      "2026-08-06T20:18:03.602810+00:00": 75,
+      "2026-08-06T20:18:03.389486+00:00": 74,
+      "2026-08-06T20:18:03.569640+00:00": 72,
+      "2026-08-06T20:18:03.740905+00:00": 65,
+      "2026-08-06T20:18:03.479715+00:00": 63
+    },
+    "data_source_distribution": {
+      "synthetic_robotics_simulation": 3000
+    }
+  }
+}
